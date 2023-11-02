@@ -21,8 +21,8 @@ container3 = document.getElementById("section_ourservices_container_3");
 container4 = document.getElementById("section_ourservices_container_4");
 
 document.getElementById('section_ourservices_button1').onclick = function() {
-    title.textContent = "Smidig integration"
-    description.innerHTML = "Vår AI-chattbot för kundtjänst integreras sömlöst med er befintliga e-handelsplattform, vilket gör implementeringen mycket enkel. <br><br>Säg adjö till komplexa installationsprocesser och långa utvecklingstider. Med vår chattbot kan du få igång en kraftfull kundtjänstlösning på nolltid. <br><br>Dessutom är våra integrationsfunktioner utformade för att fungera harmoniskt med populära e-handelsplattformar, vilket garanterar en problemfri upplevelse för både dig och dina kunder.";
+    title.textContent = "Seamless integration"
+    description.innerHTML = "Our AI chatbot for customer service integrates seamlessly with your existing website platform, making implementation effortless. <br><br>Say goodbye to complex installation processes and long deployment timelines. With our chatbot, you can get a powerful customer service solution up and running in no time. <br><br>Plus, our integration features are designed to work harmoniously with popular website platforms, ensuring a hassle-free experience for both you and your customers.";
     container1.style.backgroundColor = "rgb(56, 27, 117)";
     container2.style.backgroundColor = "rgba(246, 241, 255, 0.05)";
     container3.style.backgroundColor = "rgba(246, 241, 255, 0.05)";
@@ -31,7 +31,7 @@ document.getElementById('section_ourservices_button1').onclick = function() {
 
 document.getElementById('section_ourservices_button2').onclick = function() {
   title.textContent = "Branding"
-  description.innerHTML = "Det finns inte en lösning som passar alla, och det förstår vi. Det är därför vår chattbot för kundtjänst erbjuder oöverträffade anpassningsalternativ. <br><br>Skräddarsy dess utseende, personlighet och ton för att matcha din e-handelsbutiks unika identitet. Oavsett om du vill att din chattbot ska vara vänlig och informell eller formell och professionell har du full kontroll. <br><br>Du kan till och med anpassa chattbotens användarprofil och färgschema så att de smälter in i din hemsidas design. Med vår chattbot får du inte bara en AI-lösning, du får en varumärkesambassadör som behärskar ditt språk.";
+  description.innerHTML = "There is no one-size-fits-all solution, and we understand that. That's why our customer service chatbot offers unparalleled customization options. <br><br>Customize its look, personality and tone to match your company's unique identity. Whether you want your chatbot to be friendly and informal or formal and professional, you have full control. <br><br>You can even customize the chatbot's user profile and color scheme to blend in with your website's design. With our chatbot, you don't just get an AI solution, you get a brand ambassador who speaks your language.";
   container1.style.backgroundColor = "rgba(246, 241, 255, 0.05)";
   container2.style.backgroundColor = "rgb(56, 27, 117)";
   container3.style.backgroundColor = "rgba(246, 241, 255, 0.05)";
@@ -39,8 +39,8 @@ document.getElementById('section_ourservices_button2').onclick = function() {
 };
 
 document.getElementById('section_ourservices_button3').onclick = function() {
-  title.textContent = "Språkstöd"
-  description.innerHTML = "På dagens globala marknad ska språk aldrig vara ett hinder för kundtjänst. Vår chattbot övervinner språkbarriärer genom att erbjuda kundtjänst på flera språk. <br><br>Oavsett om dina kunder talar svenska, engelska, spanska, franska eller något annat språk kan vår chattbot interagera med dem på ett effektivt sätt. Detta är ett kraftfullt verktyg för att utöka din kundkrets och tillgodose en mångsidig målgrupp. <br><br>Dessutom ser chattbotten till att dina kunder känner sig hörda och förstådda, oavsett var de kommer ifrån, vilket i slutändan leder till ökad kundnöjdhet och lojalitet.";
+  title.textContent = "Language support"
+  description.innerHTML = "In today's global market, language should never be a barrier to customer service. Our chatbot overcomes language barriers by offering customer service in multiple languages. <br><br>Whether your customers speak English, Swedish, Spanish, French or any other language, our chatbot can interact with them effectively. This is a powerful tool to expand your customer base and cater to a diverse audience. <br><br>In addition, the chatbot ensures that your customers feel heard and understood, no matter where they come from, which ultimately leads to increased customer satisfaction and loyalty.";
   container1.style.backgroundColor = "rgba(246, 241, 255, 0.05)";
   container2.style.backgroundColor = "rgba(246, 241, 255, 0.05)";
   container3.style.backgroundColor = "rgb(56, 27, 117)";
@@ -48,8 +48,8 @@ document.getElementById('section_ourservices_button3').onclick = function() {
 };
 
 document.getElementById('section_ourservices_button4').onclick = function() {
-  title.textContent = "Uppskalning"
-  description.innerHTML = "När ditt e-handelsföretag växer ökar också behovet av kundtjänst. Det är där vår chattbot verkligen briljerar. <br><br>Den är utformad för att vara skalbar, vilket innebär att den kan hantera en ständigt växande kundbas utan att kompromissa med prestandan. Oavsett om du har en liten onlinebutik eller ett stort e-handelsimperium kommer vår chattbot att anpassa sig efter dina behov. <br><br>Du behöver inte oroa dig för att växa ur din kundtjänstlösning eller drabbas av driftstopp på grund av överbelastning. Med vår chattbot får du ett pålitligt och skalbart supportsystem som växer i takt med din framgång.";
+  title.textContent = "Scaling"
+  description.innerHTML = "As your business grows, so does the need for customer service. That's where our chatbot really shines. <br><br>It is designed to be scalable, meaning it can handle an ever-growing customer base without compromising on performance. Whether you have a small online store or a large trading empire, our chatbot will adapt to your needs. <br><br>You don't have to worry about outgrowing your customer service solution or experiencing downtime due to overload. With our chatbot, you get a reliable and scalable support system that grows with your success.";
   container1.style.backgroundColor = "rgba(246, 241, 255, 0.05)";
   container2.style.backgroundColor = "rgba(246, 241, 255, 0.05)";
   container3.style.backgroundColor = "rgba(246, 241, 255, 0.05)";
