@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;600;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
 
 html {
     scroll-behavior: smooth;
@@ -9,12 +11,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Space Grotesk', sans-serif;
     font-weight: 600;
     color: white;
     text-align: center;
 }
-
 
 a {
     text-decoration: none;
@@ -63,7 +65,7 @@ nav li:last-child {
 }
 
 nav li:hover {
-    font-weight: 800 !important;
+    font-weight: 700 !important;
 }
 
 nav a {
@@ -105,7 +107,7 @@ nav a {
 
 .section_mainheader_h1 {
    font-size: 70px; 
-   font-weight: 800;
+   font-weight: 700;
    line-height: 1.1;
    max-width: 80rem;
    margin: 0 auto;
@@ -132,7 +134,7 @@ nav a {
 
 .section_h2 {
     font-size: 46px; 
-    font-weight: 800;
+    font-weight: 700;
     line-height: 1.1;
     margin: 0px;
 }
@@ -170,7 +172,7 @@ nav a {
 
 .section_benefits_row_h3 {
     font-size: 18px; 
-    font-weight: 800;
+    font-weight: 700;
     margin: 0px;
 }
 
@@ -230,7 +232,7 @@ nav a {
 
 .section_howitworks_row_h4 {
     font-size: 16px; 
-    font-weight: 800;
+    font-weight: 700;
     margin: 0px;
 }
 
@@ -414,7 +416,7 @@ nav a {
 
 .section_quote_h2 {
     font-size: 70px; 
-    font-weight: 800;
+    font-weight: 700;
     line-height: 1.1;
     margin: 0;
 }
@@ -1279,7 +1281,7 @@ nav a {
 
     .section_quote_h2 {
         font-size: 30px; 
-        font-weight: 800;
+        font-weight: 700;
         line-height: 1.1;
         margin: 0;
     }
