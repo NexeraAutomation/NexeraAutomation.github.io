@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;600&family=Work+Sans:wght@400;600&display=swap');
+
+.vfrc-launcher {
+    background-color: rgb(20, 110, 245);
+}
+
+.vfrc-widget--chat {
+    box-shadow: none;
+}
+
+.vfrc-chat  {
+    background-color: #080808;
+}
+
+.vfrc-header {
+    background-color: rgb(20, 110, 245);
+}
+
+.vfrc-header--title {
+    font-family: 'Afacad', sans-serif;
+}
+
+.vfrc-avatar {
+    border: none;
+    box-shadow: none;
+}
+
+.vfrc-assistant-info--title {
+    font-family: 'Afacad', sans-serif;
+    color: white;
+}
+
+.vfrc-assistant-info--description {
+    font-family: 'Work Sans', sans-serif;
+    display: none;
+}
+
+.vfrc-chat--session-time {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.vfrc-system-response div p {
+    color: white;
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.vfrc-system-response .vfrc-message {
+    background-color: rgb(20, 110, 245);
+}
+
+.vfrc-user-response, .vfrc-user-response .vfrc-user-response--row .vfrc-message {
+    color: white;
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.vfrc-message {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.vfrc-chat-input textarea, .vfrc-chat-input--button, .vfrc-chat-input input {
+    font-family: 'Work Sans', sans-serif !important;
+    background-color: black !important;
+    color: white;
+}
+
+.vfrc-chat-input textarea::placeholder {
+    color: white;
+}
+
+.vfrc-button {
+    background-color: rgb(20, 110, 245);
+    color: white;
+}
+
+.vfrc-prompt button:nth-of-type(2) {
+    background-color: transparent;
+}
+
+.vfrc-chat .vfrc-prompt {
+    background-color: black;
+}
+
+
+/* Other */
+
+::-webkit-input-placeholder {
+    color:white;
+}
+
+::-moz-placeholder {
+    color:white;
+}
+
+::-ms-placeholder {
+    color:white;
+}
+
+::placeholder {
+    color:white;
+}

@@ -5,45 +5,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Streamline customer service with artificial intelligence.">
+    <meta name="description" content="Effektivisera kundtjänst med artificiell intelligens.">
 
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://nexeraautomation.com/">
+    <meta property="og:url" content="https://nexera.se/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Nexera© Automation">
-    <meta property="og:description" content="Streamline customer service with artificial intelligence.">
+    <meta property="og:description" content="Effektivisera kundtjänst med artificiell intelligens.">
     <meta property="og:image" content="https://i.imgur.com/Tthc51X.jpg">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="nexeraautomation.com">
-    <meta property="twitter:url" content="https://nexeraautomation.com/">
+    <meta property="twitter:domain" content="nexera.se">
+    <meta property="twitter:url" content="https://nexera.se/">
     <meta name="twitter:title" content="Nexera© Automation">
-    <meta name="twitter:description" content="Streamline customer service with artificial intelligence.">
+    <meta name="twitter:description" content="Effektivisera kundtjänst med artificiell intelligens.">
     <meta name="twitter:image" content="https://i.imgur.com/Tthc51X.jpg">
     
     <link rel="stylesheet" href="styles.css">
     <title>Nexera© Automation</title>
     <link rel="shortcut icon" type="image/x-icon" href="footage/browserlogo.ico">
+    <!-- <script src="./jquery-3.7.1.min.js"></script> -->
+    <!-- <script src="tilt.jquery.js"></script> -->
 </head>
 
 <body>
     
-    <header>
-        <div class="header_logo">
-          <a href="#"><img src="footage/fulllogo.png" alt="Logo"></a>
-        </div>
-        <nav>
-          <ul class="navbar_ul">
-            <li><a href="#section_benefits_scroll">Benefits</a></li>
-            <li><a href="#section_howitworks_scroll" >How it works</a></li>
-            <li><a href="#section_ourservices_scroll">Features</a></li>
-            <li><a href="#section_founder_scroll">Founder</a></li>
-            <li><a href="#section_subscriptions_scroll">Our services</a></li>
-            <li><a href="#section_faq_scroll">FAQ</a></li>
-          </ul>
+  <section class="announcement_bar">
+    <a href="#" class="announcement_bar_a">
+      <p class="announcement_bar_left_p">Ny rapport: Vi undersökte effekten av automatisering på företags lönsamhet</p>
+      <p class="announcement_bar_right_p"><s>Läs rapport</s></p>
+    </a>
+  </section>
 
-          <div class="hamburger_menu">
+  <header>
+      <nav>
+
+        <div class="nav_left">
+          <div class="header_logo">
+            <a href="#"><img src="footage/fulllogo.png" alt="Logo"></a>
+          </div>
+
+          <ul class="navbar_ul">
+            <li><a href="#section_benefits_scroll">Fördelar</a></li>
+            <li><a href="#section_testimonials_scroll" >Kundcase</a></li>
+            <li><a href="#section_ai_scroll">AI</a></li>
+          </ul>
+        </div>
+
+        <div class="hamburger_menu">
+          <div class="hamburger_menu_container">
             <div class="hamburger_menu_grid1">
               <div class="hamburger_menu_grid1_left">
                 <img class="hamburger_menu_logo" src="footage/fulllogo.png" alt="Logo">
@@ -57,617 +68,408 @@
             </div>
 
             <ul class="hamburger_menu_ul">
-              <li><a href="#section_benefits_scroll">Benefits</a></li>
-              <li><a href="#section_howitworks_scroll" >How it works</a></li>
-              <li><a href="#section_ourservices_scroll">Features</a></li>
-              <li><a href="#section_founder_scroll">Founder</a></li>
-              <li><a href="#section_subscriptions_scroll">Our services</a></li>
-              <li><a href="#section_faq_scroll">FAQ</a></li>
+              <li><a href="#section_benefits_scroll">Fördelar</a></li>
+              <li><a href="#section_testimonials_scroll" >Kundcase</a></li>
+              <li><a href="#section_ai_scroll">AI</a></li>
             </ul>
 
             <hr class="solid hamburger_menu_line">
 
             <div class="button_standard hamburger_menu_subscriptions_button">
-              <a href="#section_subscriptions_scroll">Our services</a>
+              <a href="#section_our_products_id">Våra produkter</a>
             </div>
-
           </div>
+        </div>
 
-        </nav>
         <div class="button_standard navbar_subscriptions_button">
-          <a href="#section_subscriptions_scroll">Our services</a>
-        </div>
-        <button class="section_subscriptions_hamburger_button">
-          <img class="section_subscriptions_hamburger_image" src="footage/hamburger_inactive.svg" alt="">
-        </button>
-        
-
-      </header>
-
-      <section class="section_mainheader">
-        <h1 class="section_mainheader_h1">Streamline <span class="pink_color">customer service</span> with artificial intelligence</h1>
-        <p class="section_mainheader_p">AI-proof your business with Nexera Automation's customer service chatbots.</p>
-
-        <video class="section_mainheader_hero_video" autoplay="" loop="" muted="" playsinline="">
-          <source src="./footage/hero-video.mp4" type="video/mp4">
-          <source src="./footage/hero-video.webm" type="video/webm">
-        </video>
-      </section>
-
-      <section class="section_benefits" id="section_benefits_scroll">
-        <h2 class="section_h2 section_benefits_h2">Increase your <br><span class="pink_color">profitability</span> with AI</h2>
-        <p class="section_p">Our simple three-stage rocket</p>
-
-        <div class="section_benefits_rowcontainer">
-          <div class="section_benefits_row">
-            <svg class="section_benefits_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-16 text-white"><path d="M10.464 8.746c.227-.18.497-.311.786-.394v2.795a2.252 2.252 0 01-.786-.393c-.394-.313-.546-.681-.546-1.004 0-.323.152-.691.546-1.004zM12.75 15.662v-2.824c.347.085.664.228.921.421.427.32.579.686.579.991 0 .305-.152.671-.579.991a2.534 2.534 0 01-.921.42z" fill="#FFFFFF"></path><path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v.816a3.836 3.836 0 00-1.72.756c-.712.566-1.112 1.35-1.112 2.178 0 .829.4 1.612 1.113 2.178.502.4 1.102.647 1.719.756v2.978a2.536 2.536 0 01-.921-.421l-.879-.66a.75.75 0 00-.9 1.2l.879.66c.533.4 1.169.645 1.821.75V18a.75.75 0 001.5 0v-.81a4.124 4.124 0 001.821-.749c.745-.559 1.179-1.344 1.179-2.191 0-.847-.434-1.632-1.179-2.191a4.122 4.122 0 00-1.821-.75V8.354c.29.082.559.213.786.393l.415.33a.75.75 0 00.933-1.175l-.415-.33a3.836 3.836 0 00-1.719-.755V6z" clip-rule="evenodd" fill="#FFFFFF"></path></svg>
-
-            <h3 class="section_benefits_row_h3">Reduce the volume</h3>
-            <p class="section_benefits_row_p">Resolve over 80% of your customer cases instantly, allowing your team to focus on more valuable conversations.</p>
-          </div>
-
-          <div class="section_benefits_row">
-            <svg class="section_benefits_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-16 text-white"><path d="M4.5 6.375a4.125 4.125 0 118.25 0 4.125 4.125 0 01-8.25 0zM14.25 8.625a3.375 3.375 0 116.75 0 3.375 3.375 0 01-6.75 0zM1.5 19.125a7.125 7.125 0 0114.25 0v.003l-.001.119a.75.75 0 01-.363.63 13.067 13.067 0 01-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 01-.364-.63l-.001-.122zM17.25 19.128l-.001.144a2.25 2.25 0 01-.233.96 10.088 10.088 0 005.06-1.01.75.75 0 00.42-.643 4.875 4.875 0 00-6.957-4.611 8.586 8.586 0 011.71 5.157v.003z" fill="#FFFFFF"></path></svg>
-
-            <h3 class="section_benefits_row_h3">Satisfied customers</h3>
-            <p class="section_benefits_row_p">Give your customers access to helpful and quick answers to their questions. Enhance your customer experience.</p>
-          </div>
-
-          <div class="section_benefits_row">
-            <svg class="section_benefits_svg" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-              <path d="M15.75 8.25a.75.75 0 01.75.75c0 1.12-.492 2.126-1.27 2.812a.75.75 0 11-.992-1.124A2.243 2.243 0 0015 9a.75.75 0 01.75-.75z"></path>
-              <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM4.575 15.6a8.25 8.25 0 009.348 4.425 1.966 1.966 0 00-1.84-1.275.983.983 0 01-.97-.822l-.073-.437c-.094-.565.25-1.11.8-1.267l.99-.282c.427-.123.783-.418.982-.816l.036-.073a1.453 1.453 0 012.328-.377L16.5 15h.628a2.25 2.25 0 011.983 1.186 8.25 8.25 0 00-6.345-12.4c.044.262.18.503.389.676l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 01-1.161.886l-.143.048a1.107 1.107 0 00-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 01-1.652.928l-.679-.906a1.125 1.125 0 00-1.906.172L4.575 15.6z" clip-rule="evenodd"></path>
-            </svg>
-
-            <h3 class="section_benefits_row_h3">24/7 Availability</h3>
-            <p class="section_benefits_row_p">Your chatbot provides 24/7 customer service, so customers can get help at any time, even outside regular office hours.</p>
-          </div>
+          <a href="#section_our_products_id">Våra produkter</a>
         </div>
 
-        <div class="button_standard section_benefits_button">
-          <a href="#section_subscriptions_scroll">Our services</a>
-        </div>
-
-      </section>
-
-
-      <section class="section_howitworks" id="section_howitworks_scroll">
-        <h2 class="section_h2">More profit, less costs</h2>
-        <p class="section_p">Increase the profitability of your business with our chatbot.</p>
-
-        <img src="./footage/graph_eng.png" alt="" class="section_howitworks_graph_image">
-        <div class="section_howitworks_centercontainer">
-          <div class="section_howitworks_rowcontainer">
-            <div class="section_howitworks_row">
-              <svg class="section_howitworks_row_svg" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="w-6 text-white"><path fill-rule="evenodd" d="M7.84 1.804A1 1 0 018.82 1h2.36a1 1 0 01.98.804l.331 1.652a6.993 6.993 0 011.929 1.115l1.598-.54a1 1 0 011.186.447l1.18 2.044a1 1 0 01-.205 1.251l-1.267 1.113a7.047 7.047 0 010 2.228l1.267 1.113a1 1 0 01.206 1.25l-1.18 2.045a1 1 0 01-1.187.447l-1.598-.54a6.993 6.993 0 01-1.929 1.115l-.33 1.652a1 1 0 01-.98.804H8.82a1 1 0 01-.98-.804l-.331-1.652a6.993 6.993 0 01-1.929-1.115l-1.598.54a1 1 0 01-1.186-.447l-1.18-2.044a1 1 0 01.205-1.251l1.267-1.114a7.05 7.05 0 010-2.227L1.821 7.773a1 1 0 01-.206-1.25l1.18-2.045a1 1 0 011.187-.447l1.598.54A6.993 6.993 0 017.51 3.456l.33-1.652zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"></path></svg>
-
-              <h4 class="section_howitworks_row_h4">Reduce costs</h4>
-              <p class="section_howitworks_row_p">Eliminate costs by entrusting low-yielding tasks to an AI chatbot.</p>
-            </div>
-            
-            <div class="section_howitworks_row">
-              <svg class="section_howitworks_row_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="w-6 text-white"><path fill-rule="evenodd" d="M5.75 2a.75.75 0 01.75.75V4h7V2.75a.75.75 0 011.5 0V4h.25A2.75 2.75 0 0118 6.75v8.5A2.75 2.75 0 0115.25 18H4.75A2.75 2.75 0 012 15.25v-8.5A2.75 2.75 0 014.75 4H5V2.75A.75.75 0 015.75 2zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75z" clip-rule="evenodd" fill="#FFFFFF"></path></svg>
-              
-              <h4 class="section_howitworks_row_h4">Increase velocity</h4>
-              <p class="section_howitworks_row_p">The chatbot gives instant answers. This engages the customer and increases the likelihood of purchase.</p>
-            </div>
-
-            <div class="section_howitworks_row">
-              <svg class="section_howitworks_row_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="w-6 text-white"><path d="M10 12.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5z" fill="#FFFFFF"></path><path fill-rule="evenodd" d="M.664 10.59a1.651 1.651 0 010-1.186A10.004 10.004 0 0110 3c4.257 0 7.893 2.66 9.336 6.41.147.381.146.804 0 1.186A10.004 10.004 0 0110 17c-4.257 0-7.893-2.66-9.336-6.41zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" fill="#FFFFFF"></path></svg>
-              
-              <h4 class="section_howitworks_row_h4">Increase efficiency</h4>
-              <p class="section_howitworks_row_p">Give your team the tools they need to multiply their results.</p>
-            </div>
-
-            <div class="section_howitworks_row">
-              <svg class="section_howitworks_row_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="w-6 text-white"><path fill-rule="evenodd" d="M15.312 11.424a5.5 5.5 0 01-9.201 2.466l-.312-.311h2.433a.75.75 0 000-1.5H3.989a.75.75 0 00-.75.75v4.242a.75.75 0 001.5 0v-2.43l.31.31a7 7 0 0011.712-3.138.75.75 0 00-1.449-.39zm1.23-3.723a.75.75 0 00.219-.53V2.929a.75.75 0 00-1.5 0V5.36l-.31-.31A7 7 0 003.239 8.188a.75.75 0 101.448.389A5.5 5.5 0 0113.89 6.11l.311.31h-2.432a.75.75 0 000 1.5h4.243a.75.75 0 00.53-.219z" clip-rule="evenodd" fill="#FFFFFF"></path></svg>
-              
-              <h4 class="section_howitworks_row_h4">Quality</h4>
-              <p class="section_howitworks_row_p">Create consistent quality by eliminating human errors and variations.</p>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="slideshow">
-          <div class="slideshow-container">
-            <div class="slideshow_slide">
-              <svg id="slideshow_slide_svg" class="section_howitworks_row_svg" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="w-6 text-white"><path fill-rule="evenodd" d="M7.84 1.804A1 1 0 018.82 1h2.36a1 1 0 01.98.804l.331 1.652a6.993 6.993 0 011.929 1.115l1.598-.54a1 1 0 011.186.447l1.18 2.044a1 1 0 01-.205 1.251l-1.267 1.113a7.047 7.047 0 010 2.228l1.267 1.113a1 1 0 01.206 1.25l-1.18 2.045a1 1 0 01-1.187.447l-1.598-.54a6.993 6.993 0 01-1.929 1.115l-.33 1.652a1 1 0 01-.98.804H8.82a1 1 0 01-.98-.804l-.331-1.652a6.993 6.993 0 01-1.929-1.115l-1.598.54a1 1 0 01-1.186-.447l-1.18-2.044a1 1 0 01.205-1.251l1.267-1.114a7.05 7.05 0 010-2.227L1.821 7.773a1 1 0 01-.206-1.25l1.18-2.045a1 1 0 011.187-.447l1.598.54A6.993 6.993 0 017.51 3.456l.33-1.652zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"></path></svg>
-
-              <h4 id="slideshow_slide_h4" class="section_howitworks_row_h4">Reduce costs</h4>
-              <p id="slideshow_slide_p" class="section_howitworks_row_p">Eliminate costs by entrusting low-yielding tasks to an AI chatbot.</p>
-            </div>
-          </div>
-
-          <div class="slideshow_controls">
-              <button class="slideshow_arrow_button" onclick="changeSlide(-1)">
-                <svg class="slideshow_arrow_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-6 text-white"><path fill-rule="evenodd" d="M11.03 3.97a.75.75 0 010 1.06l-6.22 6.22H21a.75.75 0 010 1.5H4.81l6.22 6.22a.75.75 0 11-1.06 1.06l-7.5-7.5a.75.75 0 010-1.06l7.5-7.5a.75.75 0 011.06 0z" clip-rule="evenodd"></path></svg>
-              </button>
-              <p id="slideNumber"><span class="slideshow_number_1" id="slideshow_number_1">1 </span><span class="slideshow_number_2">/</span><span class="slideshow_number_3">4</span></p>
-              <button class="slideshow_arrow_button" onclick="changeSlide(1)">
-                <svg class="slideshow_arrow_svg" style="transform: rotate(180deg);"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-6 text-white transform rotate-180"><path fill-rule="evenodd" d="M11.03 3.97a.75.75 0 010 1.06l-6.22 6.22H21a.75.75 0 010 1.5H4.81l6.22 6.22a.75.75 0 11-1.06 1.06l-7.5-7.5a.75.75 0 010-1.06l7.5-7.5a.75.75 0 011.06 0z" clip-rule="evenodd"></path></svg>              </button>
-          </div>
-        </div>
-
-      </section>
+      </nav>
+      
+      <button class="section_subscriptions_hamburger_button">
+        <img class="section_subscriptions_hamburger_image" src="footage/hamburger_inactive.svg" alt="">
+      </button>
       
 
-      <section class="section_ourservices" id="section_ourservices_scroll">
-        <h2 class="section_h2 section_ourservices_h2">Happy customers, happy entrepreneurs</h2>
-        
-        <div class="section_ourservices_container">
-          <div class="section_ourservices_left">
+  </header>
 
-            <button class="section_ourservices_griditem_buttonwrapper" id="section_ourservices_button1">
-              <div id="section_ourservices_container_1" class="section_ourservices_griditem" data-index="0">  
-                <svg class="section_ourservices_griditem_svg" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-6 lg:w-8"><path d="M21.721 12.752a9.711 9.711 0 00-.945-5.003 12.754 12.754 0 01-4.339 2.708 18.991 18.991 0 01-.214 4.772 17.165 17.165 0 005.498-2.477zM14.634 15.55a17.324 17.324 0 00.332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 00.332 4.647 17.385 17.385 0 005.268 0zM9.772 17.119a18.963 18.963 0 004.456 0A17.182 17.182 0 0112 21.724a17.18 17.18 0 01-2.228-4.605zM7.777 15.23a18.87 18.87 0 01-.214-4.774 12.753 12.753 0 01-4.34-2.708 9.711 9.711 0 00-.944 5.004 17.165 17.165 0 005.498 2.477zM21.356 14.752a9.765 9.765 0 01-7.478 6.817 18.64 18.64 0 001.988-4.718 18.627 18.627 0 005.49-2.098zM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 001.988 4.718 9.765 9.765 0 01-7.478-6.816zM13.878 2.43a9.755 9.755 0 016.116 3.986 11.267 11.267 0 01-3.746 2.504 18.63 18.63 0 00-2.37-6.49zM12 2.276a17.152 17.152 0 012.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0112 2.276zM10.122 2.43a18.629 18.629 0 00-2.37 6.49 11.266 11.266 0 01-3.746-2.504 9.754 9.754 0 016.116-3.985z"></path></svg>
-                <h4 class="section_ourservices_griditem_h4">Seamless integration</h4>
-                <div class="section_ourservices_button">
-                  <p>Read more</p>
-                </div>
-              </div>
-            </button>
-
-            <button class="section_ourservices_griditem_buttonwrapper" id="section_ourservices_button2">
-              <div  id="section_ourservices_container_2" class="section_ourservices_griditem" data-index="1">
-                <svg class="section_ourservices_griditem_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-6 lg:w-8"><path fill-rule="evenodd" d="M4.5 3.75a3 3 0 00-3 3v10.5a3 3 0 003 3h15a3 3 0 003-3V6.75a3 3 0 00-3-3h-15zm4.125 3a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm-3.873 8.703a4.126 4.126 0 017.746 0 .75.75 0 01-.351.92 7.47 7.47 0 01-3.522.877 7.47 7.47 0 01-3.522-.877.75.75 0 01-.351-.92zM15 8.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15zM14.25 12a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H15a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15z" clip-rule="evenodd"></path></svg>                
-                <h4 class="section_ourservices_griditem_h4">Branding</h4>
-                <div class="section_ourservices_button">
-                  <p>Read more</p>
-                </div>           
-              </div>
-            </button>
-
-            <button class="section_ourservices_griditem_buttonwrapper" id="section_ourservices_button3">
-              <div  id="section_ourservices_container_3" class="section_ourservices_griditem" data-index="2">  
-                <svg class="section_ourservices_griditem_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-6 lg:w-8"><path fill-rule="evenodd" d="M4.125 3C3.089 3 2.25 3.84 2.25 4.875V18a3 3 0 003 3h15a3 3 0 01-3-3V4.875C17.25 3.839 16.41 3 15.375 3H4.125zM12 9.75a.75.75 0 000 1.5h1.5a.75.75 0 000-1.5H12zm-.75-2.25a.75.75 0 01.75-.75h1.5a.75.75 0 010 1.5H12a.75.75 0 01-.75-.75zM6 12.75a.75.75 0 000 1.5h7.5a.75.75 0 000-1.5H6zm-.75 3.75a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5H6a.75.75 0 01-.75-.75zM6 6.75a.75.75 0 00-.75.75v3c0 .414.336.75.75.75h3a.75.75 0 00.75-.75v-3A.75.75 0 009 6.75H6z" clip-rule="evenodd"></path><path d="M18.75 6.75h1.875c.621 0 1.125.504 1.125 1.125V18a1.5 1.5 0 01-3 0V6.75z"></path></svg>                
-                <h4 class="section_ourservices_griditem_h4">Language support</h4>
-                <div class="section_ourservices_button">
-                  <p>Read more</p>
-                </div>          
-              </div>
-            </button>
-
-            <button class="section_ourservices_griditem_buttonwrapper" id="section_ourservices_button4">
-              <div  id="section_ourservices_container_4" class="section_ourservices_griditem" data-index="3">
-                <svg class="section_ourservices_griditem_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-6 lg:w-8"><path fill-rule="evenodd" d="M3 6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3H6a3 3 0 01-3-3V6zm14.25 6a.75.75 0 01-.22.53l-2.25 2.25a.75.75 0 11-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 111.06-1.06l2.25 2.25c.141.14.22.331.22.53zm-10.28-.53a.75.75 0 000 1.06l2.25 2.25a.75.75 0 101.06-1.06L8.56 12l1.72-1.72a.75.75 0 10-1.06-1.06l-2.25 2.25z" clip-rule="evenodd"></path></svg>                
-                <h4 class="section_ourservices_griditem_h4">Scaling</h4>
-                <div class="section_ourservices_button">
-                  <p>Read more</p>
-                </div>          
-              </div>
-            </button>
-
-          </div>
-
-          <div class="section_ourservices_right">
-            <h3 class="section_ourservices_h3" id="section_ourservices_title_h3">Seamless integration</h3>
-            <div id="service-description">Our AI chatbot for customer service integrates seamlessly with your existing website platform, making implementation effortless. <br><br>Say goodbye to complex installation processes and long deployment timelines. With our chatbot, you can get a powerful customer service solution up and running in no time. <br><br>Plus, our integration features are designed to work harmoniously with popular website platforms, ensuring a hassle-free experience for both you and your customers.</div>
-          </div>
-        </div>
-
-
-        <div class="section_smallerservices">
-
-          <div class="section_smallerservices_container">
-              <div class="section_smallerservices_dropdown_container">
-                <div class="section_smallerservices_dropdown_flex">
-                  <button type="button" class="section_smallerservices_dropdown_button">
-                    <div class="section_smallerservices_dropdown_icon_container">
-                      <svg class="section_smallerservices_dropdown_icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-6 lg:w-8"><path d="M21.721 12.752a9.711 9.711 0 00-.945-5.003 12.754 12.754 0 01-4.339 2.708 18.991 18.991 0 01-.214 4.772 17.165 17.165 0 005.498-2.477zM14.634 15.55a17.324 17.324 0 00.332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 00.332 4.647 17.385 17.385 0 005.268 0zM9.772 17.119a18.963 18.963 0 004.456 0A17.182 17.182 0 0112 21.724a17.18 17.18 0 01-2.228-4.605zM7.777 15.23a18.87 18.87 0 01-.214-4.774 12.753 12.753 0 01-4.34-2.708 9.711 9.711 0 00-.944 5.004 17.165 17.165 0 005.498 2.477zM21.356 14.752a9.765 9.765 0 01-7.478 6.817 18.64 18.64 0 001.988-4.718 18.627 18.627 0 005.49-2.098zM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 001.988 4.718 9.765 9.765 0 01-7.478-6.816zM13.878 2.43a9.755 9.755 0 016.116 3.986 11.267 11.267 0 01-3.746 2.504 18.63 18.63 0 00-2.37-6.49zM12 2.276a17.152 17.152 0 012.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0112 2.276zM10.122 2.43a18.629 18.629 0 00-2.37 6.49 11.266 11.266 0 01-3.746-2.504 9.754 9.754 0 016.116-3.985z"></path></svg>
-                      <svg class="section_smallerservices_dropdown_collapsible_icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 text-white/50 group-hover:text-white transition duration-300 ease-in-out"><path fill-rule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z" clip-rule="evenodd"></path></svg>
-                    </div>
-                  </button>
-                  <p class="section_p section_smallerservices_dropdown_p">Seamless integration</p>
-                </div>
-
-                <div class="section_smallerservices_dropdown_collapsible_container">
-                  <p class="section_p section_smallerservices_dropdown_collapsible_p">Our AI chatbot for customer service integrates seamlessly with your existing website platform, making implementation effortless. <br><br>Say goodbye to complex installation processes and long deployment timelines. With our chatbot, you can get a powerful customer service solution up and running in no time. <br><br>Plus, our integration features are designed to work harmoniously with popular website platforms, ensuring a hassle-free experience for both you and your customers.</p>
-                </div>
-            </div>
-          </div>
-        
-          <div class="section_smallerservices_container">
-            <div class="section_smallerservices_dropdown_container">
-              <div class="section_smallerservices_dropdown_flex">
-                <button type="button" class="section_smallerservices_dropdown_button">
-                  <div class="section_smallerservices_dropdown_icon_container">
-                    <svg class="section_smallerservices_dropdown_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-6 lg:w-8"><path fill-rule="evenodd" d="M4.5 3.75a3 3 0 00-3 3v10.5a3 3 0 003 3h15a3 3 0 003-3V6.75a3 3 0 00-3-3h-15zm4.125 3a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm-3.873 8.703a4.126 4.126 0 017.746 0 .75.75 0 01-.351.92 7.47 7.47 0 01-3.522.877 7.47 7.47 0 01-3.522-.877.75.75 0 01-.351-.92zM15 8.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15zM14.25 12a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H15a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5h3.75a.75.75 0 000-1.5H15z" clip-rule="evenodd"></path></svg>                
-                    <svg class="section_smallerservices_dropdown_collapsible_icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 text-white/50 group-hover:text-white transition duration-300 ease-in-out"><path fill-rule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z" clip-rule="evenodd"></path></svg>
-                  </div>
-                </button>
-                <p class="section_p section_smallerservices_dropdown_p">Branding</p>
-              </div>
-
-              <div class="section_smallerservices_dropdown_collapsible_container">
-                <p class="section_p section_smallerservices_dropdown_collapsible_p">There is no one-size-fits-all solution, and we understand that. That's why our customer service chatbot offers unparalleled customization options. <br><br>Customize its look, personality and tone to match your company's unique identity. Whether you want your chatbot to be friendly and informal or formal and professional, you have full control. <br><br>You can even customize the chatbot's user profile and color scheme to blend in with your website's design. With our chatbot, you don't just get an AI solution, you get a brand ambassador who speaks your language.</p>
-              </div>
-          </div>
-        </div>
-
-        <div class="section_smallerservices_container">
-          <div class="section_smallerservices_dropdown_container">
-            <div class="section_smallerservices_dropdown_flex">
-              <button type="button" class="section_smallerservices_dropdown_button">
-                <div class="section_smallerservices_dropdown_icon_container">
-                  <svg class="section_smallerservices_dropdown_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-6 lg:w-8"><path fill-rule="evenodd" d="M4.125 3C3.089 3 2.25 3.84 2.25 4.875V18a3 3 0 003 3h15a3 3 0 01-3-3V4.875C17.25 3.839 16.41 3 15.375 3H4.125zM12 9.75a.75.75 0 000 1.5h1.5a.75.75 0 000-1.5H12zm-.75-2.25a.75.75 0 01.75-.75h1.5a.75.75 0 010 1.5H12a.75.75 0 01-.75-.75zM6 12.75a.75.75 0 000 1.5h7.5a.75.75 0 000-1.5H6zm-.75 3.75a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5H6a.75.75 0 01-.75-.75zM6 6.75a.75.75 0 00-.75.75v3c0 .414.336.75.75.75h3a.75.75 0 00.75-.75v-3A.75.75 0 009 6.75H6z" clip-rule="evenodd"></path><path d="M18.75 6.75h1.875c.621 0 1.125.504 1.125 1.125V18a1.5 1.5 0 01-3 0V6.75z"></path></svg>                
-                  <svg class="section_smallerservices_dropdown_collapsible_icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 text-white/50 group-hover:text-white transition duration-300 ease-in-out"><path fill-rule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z" clip-rule="evenodd"></path></svg>
-                </div>
-              </button>
-              <p class="section_p section_smallerservices_dropdown_p">Language support</p>
-            </div>
-
-            <div class="section_smallerservices_dropdown_collapsible_container">
-              <p class="section_p section_smallerservices_dropdown_collapsible_p">In today's global market, language should never be a barrier to customer service. Our chatbot overcomes language barriers by offering customer service in multiple languages. <br><br>Whether your customers speak English, Swedish, Spanish, French or any other language, our chatbot can interact with them effectively. This is a powerful tool to expand your customer base and cater to a diverse audience. <br><br>In addition, the chatbot ensures that your customers feel heard and understood, no matter where they come from, which ultimately leads to increased customer satisfaction and loyalty.</p>
-            </div>
-        </div>
+    <section class="section_mainheader">
+      <div class="section_mainheader_text">
+        <h1 class="section_mainheader_h1">Automatisera ditt företag — med artificiell intelligens</h1>
+        <p class="section_mainheader_p">Öka din lönsamhet genom att automatisera viktiga processer med artificiell intelligens. Nexera Automation hjälper dig längs med hela resan.</p>
       </div>
 
-      <div class="section_smallerservices_container">
-        <div class="section_smallerservices_dropdown_container">
-          <div class="section_smallerservices_dropdown_flex">
-            <button type="button" class="section_smallerservices_dropdown_button">
-              <div class="section_smallerservices_dropdown_icon_container">
-                <svg class="section_smallerservices_dropdown_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-6 lg:w-8"><path fill-rule="evenodd" d="M3 6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3H6a3 3 0 01-3-3V6zm14.25 6a.75.75 0 01-.22.53l-2.25 2.25a.75.75 0 11-1.06-1.06L15.44 12l-1.72-1.72a.75.75 0 111.06-1.06l2.25 2.25c.141.14.22.331.22.53zm-10.28-.53a.75.75 0 000 1.06l2.25 2.25a.75.75 0 101.06-1.06L8.56 12l1.72-1.72a.75.75 0 10-1.06-1.06l-2.25 2.25z" clip-rule="evenodd"></path></svg>                
-                <svg class="section_smallerservices_dropdown_collapsible_icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 text-white/50 group-hover:text-white transition duration-300 ease-in-out"><path fill-rule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z" clip-rule="evenodd"></path></svg>
-              </div>
-            </button>
-            <p class="section_p section_smallerservices_dropdown_p">Scaling</p>
-          </div>
-
-          <div class="section_smallerservices_dropdown_collapsible_container">
-            <p class="section_p section_smallerservices_dropdown_collapsible_p">As your business grows, so does the need for customer service. That's where our chatbot really shines. <br><br>It is designed to be scalable, meaning it can handle an ever-growing customer base without compromising on performance. Whether you have a small online store or a large trading empire, our chatbot will adapt to your needs. <br><br>You don't have to worry about outgrowing your customer service solution or experiencing downtime due to overload. With our chatbot, you get a reliable and scalable support system that grows with your success.</p>
-          </div>
+      <div class="button_standard section_mainheader_button">
+        <a href="#section_our_products_id">Våra produkter</a>
       </div>
+  
+      <div class="lines_image_container">
+        <img src="./footage/lines.png" alt="" class="lines_image">
+      </div>
+      
+    
+      <video class="section_mainheader_hero_video" autoplay loop muted playsinline style="display: none;">
+        <source src="./footage/hero-video.mp4" type="video/mp4">
+        <source src="./footage/hero-video.webm" type="video/webm">
+      </video>
+    </section>
+
+    
+    <div class="chatbot_demo_container" data-tilt data-tilt-reverse="true" data-tilt-speed="3000" data-tilt-reset="false" data-tilt-max="15">
+      <video class="chatbot_demo_video" muted autoplay playsinline loop src="./footage/demo.mp4"></video>
     </div>
+    
+    
+    <section class="section_main_features">
+      <div class="section_main_features_headertext">
+        <h1 class="section_main_feature_h1">Lämna stenåldern och <br>påbörja AI-åldern</h1>
+        <p class="section_main_feature_p">Genom att använda den senaste teknologin inom artificiell intelligens kan du försätta ditt företag i den yttersta spetsen av innovation.</p>
 
+        <div class="button_standard">
+          <a href="#section_our_products_id">Våra produkter</a>
         </div>
+      </div>
+    </section>
 
 
-      </section>
+    <section class="section_faq" id="section_benefits_scroll">
+      <div class="section_faq_container">
+        <div class="section_faq_left">
 
+          <div class="section_faq_dropdown_container">
+            <button type="button" class="section_faq_dropdown_button">
+              <div class="section_faq_dropdown_flex">
+                
+                  <div class="section_faq_dropdown_icon_container">
+                    <img src="./footage/lightning_grey.png" alt="" class="section_faq_dropdown_icon">
+                    <img src="./footage/lightning_blue.png" alt="" class="section_faq_dropdown_collapsible_icon">
+                  </div>
+                
+                <p class="section_p section_faq_dropdown_p">Ökad effektivitet</p>
+              </div>
 
-      <section class="section_quote">
-        <div class="section_quote_container">
-          <h3 class="section_quote_h3">Don't get left behind:<br><br></h3>
-          <h2 class="section_quote_h2">Join the 80% of companies implementing AI.</h2>
+              <div class="section_faq_dropdown_collapsible_container">
+                <p class="section_p section_faq_dropdown_collapsible_p">Vår AI-automation optimerar era processer för maximal effektivitet. Genom att automatisera uppgifter frigörs tid för er att fokusera på tillväxt och innovation.</p>
+              </div>
+            </button>
+          </div>
 
-        </div>
-        
+          <div class="section_faq_dropdown_container">
+            <button type="button" class="section_faq_dropdown_button">
+              <div class="section_faq_dropdown_flex">
+                
+                  <div class="section_faq_dropdown_icon_container">
+                    <img src="./footage/money_grey.png" alt="" class="section_faq_dropdown_icon">
+                    <img src="./footage/money_blue.png" alt="" class="section_faq_dropdown_collapsible_icon">
+                  </div>
+                
+                <p class="section_p section_faq_dropdown_p">Sänkta kostnader</p>
+              </div>
 
-      </section>
+              <div class="section_faq_dropdown_collapsible_container">
+                <p class="section_p section_faq_dropdown_collapsible_p">Med vår AI-automation minskar ni driftskostnader genom effektivare resursanvändning. Detta frigör kapital för investeringar och ökar er konkurrenskraft på marknaden.</p>
+              </div>
+            </button>
+          </div>
 
+          <div class="section_faq_dropdown_container">
+            <button type="button" class="section_faq_dropdown_button">
+              <div class="section_faq_dropdown_flex">
+                
+                  <div class="section_faq_dropdown_icon_container">
+                    <img src="./footage/quality_grey.png" alt="" class="section_faq_dropdown_icon">
+                    <img src="./footage/quality_blue.png" alt="" class="section_faq_dropdown_collapsible_icon">
+                  </div>
+                
+                <p class="section_p section_faq_dropdown_p">Ökad kvalitet</p>
+              </div>
 
-      <section class="section_founder" id="section_founder_scroll">
-        <div class="section_founder_container">
-          <div class="section_founder_left">
-            <h2 class="section_h2">Meet our founder</h2>
-            <p class="section_p section_founder_p">Hi! My name is Henrik. I started my journey with e-commerce and marketing, but in recent years I have focused on AI development and running Nexera Automation, where we create practical AI solutions that drive business growth.</p>
-            <p class="section_p section_founder_p">Driven by the need to make AI accessible to businesses, I specialize in developing chatbots that streamline your customer service. I hope to bridge the gap between AI technology and its enormous potential. Let's unleash the power of AI technology together.</p>
-            
-            <div class="section_founder_icons_container">
+              <div class="section_faq_dropdown_collapsible_container">
+                <p class="section_p section_faq_dropdown_collapsible_p">AI erbjuder en oöverträffad precision och tillförlitlighet, vilket resulterar i högre kvalitet i era produkter eller tjänster. Genom att minimera mänskliga fel höjer vi er standard och tillfredsställer era kunders behov.</p>
+              </div>
+            </button>
+          </div>
+
+          <div class="section_faq_dropdown_container">
+            <button type="button" class="section_faq_dropdown_button">
+              <div class="section_faq_dropdown_flex">
+                
+                  <div class="section_faq_dropdown_icon_container">
+                    <img src="./footage/chart_grey.png" alt="" class="section_faq_dropdown_icon">
+                    <img src="./footage/chart_blue.png" alt="" class="section_faq_dropdown_collapsible_icon">
+                  </div>
+                
+                <p class="section_p section_faq_dropdown_p">Flexibel uppskalning</p>
+              </div>
+
+              <div class="section_faq_dropdown_collapsible_container">
+                <p class="section_p section_faq_dropdown_collapsible_p">Med AI är tillväxten smidigare. Vår teknik möjliggör snabb och enkel uppskalning av era operationer utan att uppoffra kvalitet eller effektivitet.</p>
+              </div>
+            </button>
+          </div>
+
+          <div class="section_faq_dropdown_container">
+            <button type="button" class="section_faq_dropdown_button">
+              <div class="section_faq_dropdown_flex">
+                
+                <div class="section_faq_dropdown_icon_container">
+                  <img src="./footage/data_grey.png" alt="" class="section_faq_dropdown_icon">
+                  <img src="./footage/data_blue.png" alt="" class="section_faq_dropdown_collapsible_icon">
+                </div>
               
-              <a target="_blank" class="section_founder_link section_founder_box section_founder_box_email" href="mailto:henrik@nexera.se">
-                <p class="section_founder_p section_founder_icon_p">E-mail</p>
-                <!--<svg xmlns="https://www.w3.org/2000/svg" class="h-8 w-8 mx-auto mt-2" viewBox="0 0 38 27" fill="currentColor" width="38" height="27"><path d="M36.9578 4.62796C36.5256 3.02144 35.259 1.75504 33.6527 1.32245C30.7182 0.519531 18.98 0.519531 18.98 0.519531C18.98 0.519531 7.24226 0.519531 4.30777 1.29201C2.73238 1.72414 1.43484 3.02167 1.00272 4.62796C0.230469 7.56223 0.230469 13.6475 0.230469 13.6475C0.230469 13.6475 0.230469 19.7635 1.00272 22.6671C1.4353 24.2733 2.70148 25.5397 4.308 25.9723C7.27316 26.7755 18.9805 26.7755 18.9805 26.7755C18.9805 26.7755 30.7182 26.7755 33.6527 26.003C35.2592 25.5706 36.5256 24.3042 36.9582 22.698C37.7302 19.7635 37.7302 13.6784 37.7302 13.6784C37.7302 13.6784 37.7611 7.56223 36.9578 4.62796ZM15.2428 19.2693V8.02571L25.0037 13.6475L15.2428 19.2693Z" fill="#F6F1FF"></path></svg>-->
-                <img class="linkedin" src="./footage/mail.png" alt="">                  
+              <p class="section_p section_faq_dropdown_p">Underbyggda beslut</p>
+            </div>
+
+            <div class="section_faq_dropdown_collapsible_container">
+              <p class="section_p section_faq_dropdown_collapsible_p">Genom att använda AI kan du fatta beslut baserade på data istället för antaganden. Vi hjälper er att analysera information för att ta välgrundade och objektiva beslut som ger ert företag en konkurrensfördel.</p>
+            </div>
+          </button>
+        </div>
+      </div>
+
+        <div class="section_faq_right">
+
+          <video autoplay loop muted playsinline src="./footage/videos/ökad_effektivitet_video.mp4" class="section_faq_video"></video>
+        </div>
+      
+      </div>
+    </section>
+
+
+
+
+    <section class="section_case_studies" id="section_testimonials_scroll">
+      <h2 class="section_case_studies_h2">Våra kundcase</h2>
+
+      <div class="section_case_studies_container">
+        <a class="section_case_studies_a" href="https://www.ilovelund.se/"  target="_blank" style="display: none;">
+          <div class="section_case_studies_card section_case_studies_card_orange">
+            <p class="section_case_studies_card_p">Informativ chattbot</p>
+            <img src="./footage/ilovelund_logo.png" alt="" class="section_case_studies_card_logo">
+            <img src="./footage/ilovelund_logo_black.png" alt="" class="section_case_studies_card_logo_black">
+            <p class="section_case_studies_card_p">Testa →</p>
+          </div>
+        </a>
+
+        <a class="section_case_studies_a" href="https://www.polybase.se/" target="_blank">
+          <div class="section_case_studies_card section_case_studies_card_blue">
+            <p class="section_case_studies_card_p">Informativ chattbot</p>
+            <img src="./footage/polybase_logo_white.png" alt="" class="section_case_studies_card_logo">
+            <img src="./footage/polybase_logo_black.png" alt="" class="section_case_studies_card_logo_black">
+            <p class="section_case_studies_card_p">Testa →</p>
+          </div>
+        </a>
+      </div>
+
+      
+    </section>
+
+
+
+    <section class="section_boxes" id="section_ai_scroll">
+      <h1 class="section_boxes_h1">Varför AI?</h1>
+      <p class="section_boxes_p">Vilka fördelar finns för mig som företagare med att implementera artificiell intelligens?</p>
+
+      <div class="button_standard">
+        <a href="#section_our_products_id">Våra produkter</a>
+      </div>
+
+      <div class="section_boxes_grid">
+
+        <div class="section_boxes_grid_box">
+          <img class="section_boxes_grid_box_img" src="./footage/icon_glowing_blue.png">
+          <h4 class="section_boxes_grid_box_h4">Undvik att hamna på efterkälken</h4>
+          <p class="section_boxes_grid_box_p">Över 80 % av företag har redan implementerat AI i sin verksamhet. Undvik att hamna på efterkälken genom att använda våra produkter.</p>
+        </div>
+
+        <div class="section_boxes_grid_box">
+          <img class="section_boxes_grid_box_img" src="./footage/icon_glowing_green.png">
+          <h4 class="section_boxes_grid_box_h4">Framtidssäkra ditt bolag</h4>
+          <p class="section_boxes_grid_box_p">Genom att implementera AI-teknologi idag kan du säkerställa att ditt företag är rustat för att möta framtidens utmaningar och vara en ledare i branschen.</p>
+        </div>
+
+        <div class="section_boxes_grid_box">
+          <img class="section_boxes_grid_box_img" src="./footage/icon_glowing_orange.png">
+          <h4 class="section_boxes_grid_box_h4">Skapa en konkurrensfördel</h4>
+          <p class="section_boxes_grid_box_p">Med AI kan du stå ut från konkurrenterna genom att automatisera processer och leverera skräddarsydda lösningar, vilket ger dig en betydande konkurrensfördel.</p>
+        </div>
+
+        <div class="section_boxes_grid_box">
+          <img class="section_boxes_grid_box_img" src="./footage/icon_glowing_red.png">
+          <h4 class="section_boxes_grid_box_h4">Den nya revolutionen</h4>
+          <p class="section_boxes_grid_box_p">Precis som internetrevolutionen på 90-talet, står AI nu redo att omforma vårt samhälle. Anamma AI och hamna i spetsen av innovation.</p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+
+    <section class="section_white">
+      <div class="section_white_content">
+        <h1 class="section_white_h1">Lär dig mer om framtiden</h1>
+        <p class="section_white_p">Läs våra rapporter och artiklar om artificiell intelligens och automation för att se hur våra produkter kan gynna ditt företag.</p>
+
+        <div class="section_white_grid">
+
+          <div class="section_white_grid_card">
+            <img src="./footage/pexels-steve-johnson-1517076(1).jpg" alt="" class="section_white_grid_card_img">
+            <h4 class="section_white_grid_card_h4">Den nya revolutionen</h4>
+            <p class="section_white_grid_card_p">Utforska historien av artificiell intelligens, dagens läge och hur denna teknologi kommer att revolutionera samhället.</p>
+            <a href="#" class="section_white_grid_card_a"><p><s>Läs mer →</s><br>*under uppbyggnad*</p></a>
+          </div>
+  
+          <div class="section_white_grid_card">
+            <img src="./footage/pexels-steve-johnson-1517076(1).jpg" alt="" class="section_white_grid_card_img">
+            <h4 class="section_white_grid_card_h4">AI-chattbotar 101</h4>
+            <p class="section_white_grid_card_p">Lär dig allt om hur AI-chattbotar revolutionerar interaktionen mellan användare och ditt företag.</p>
+            <a href="#" class="section_white_grid_card_a"><p><s>Läs mer →</s><br>*under uppbyggnad*</p></a>
+          </div>
+  
+          <div class="section_white_grid_card">
+            <img src="./footage/pexels-steve-johnson-1517076(1).jpg" alt="" class="section_white_grid_card_img">
+            <h4 class="section_white_grid_card_h4">Hur AI ökar din lönsamhet</h4>
+            <p class="section_white_grid_card_p">Artificiell intelligens känns ofta som en abstrabt teknologi. Lär dig hur AI i praktiken kan öka ditt företags lönsamhet.</p>
+            <a href="#" class="section_white_grid_card_a"><p><s>Läs mer →</s><br>*under uppbyggnad*</p></a>
+          </div>
+  
+        </div>
+      </div>
+    
+    </section>
+
+
+
+
+
+
+    <section class="section_get_started">
+      <div class="section_get_started_content">
+        <div class="section_get_started_grid">
+
+          <div class="section_get_started_grid_card section_get_started_grid_card1">
+            <h1 class="section_get_started_grid_card_h1">Senaste verktygen</h1>
+          </div>
+
+          <div class="section_get_started_grid_card section_get_started_grid_card2">
+            <p class="section_get_started_grid_card_p">Vi använder de senaste verktygen på marknaden vid utveckling av våra produkter, allt för att säkerställa att du hamnar i spetsen av AI-revolutionen.</p>
+            <div class="button_standard">
+              <a href="#section_our_products_id">Våra produkter</a>
+            </div>
+          </div>
+        </div>
+
+        <img src="./footage/banner_bottom_tools.jpg" alt="" class="section_get_started_img">
+      </div>
+
+    </section>
+
+
+
+
+
+    <section class="section_multi_display" id="section_our_products_id">
+
+      <h1 class="section_multi_display_h1">Våra produkter</h1>
+      <p class="section_main_feature_p">Utforska våra produkter för att hitta den automatisering som gynnar just ditt företag.</p>
+
+      <div class="section_multi_display_div" style="background-image: url('./footage/background_circles.png');">
+        <div class="multi_display_grid">
+          <div class="multi_display_grid_item">
+            <div class="multi_display_text_div">
+              <a href="https://calendly.com/nexeraautomation/introducerande" class="multi_display_a">
+                <h4 class="section_multi_display_h4">Chattbot för kundtjänst och information</h4>
+                <p class="section_multi_display_p">En chattbot kan besvara dina kunders frågor utan att du behöver spendera resurser på ett kundtjänstteam. De kan även utnyttjas i informerande syften så att dina besökare får en förståelse för ditt företag.</p>
+                <p class="section_multi_display_p_read_more">Boka samtal →</p>
               </a>
-              
-              
-              <a target="_blank" class="section_founder_link section_founder_box" href="https://www.linkedin.com/in/henrik-m%C3%A5rtensson-etverk/">
-                  <p class="section_founder_p section_founder_icon_p">LinkedIn</p>
-                  <!--<svg xmlns="https://www.w3.org/2000/svg" class="h-8 w-8 mx-auto mt-2" viewBox="0 0 38 27" fill="currentColor" width="38" height="27"><path d="M36.9578 4.62796C36.5256 3.02144 35.259 1.75504 33.6527 1.32245C30.7182 0.519531 18.98 0.519531 18.98 0.519531C18.98 0.519531 7.24226 0.519531 4.30777 1.29201C2.73238 1.72414 1.43484 3.02167 1.00272 4.62796C0.230469 7.56223 0.230469 13.6475 0.230469 13.6475C0.230469 13.6475 0.230469 19.7635 1.00272 22.6671C1.4353 24.2733 2.70148 25.5397 4.308 25.9723C7.27316 26.7755 18.9805 26.7755 18.9805 26.7755C18.9805 26.7755 30.7182 26.7755 33.6527 26.003C35.2592 25.5706 36.5256 24.3042 36.9582 22.698C37.7302 19.7635 37.7302 13.6784 37.7302 13.6784C37.7302 13.6784 37.7611 7.56223 36.9578 4.62796ZM15.2428 19.2693V8.02571L25.0037 13.6475L15.2428 19.2693Z" fill="#F6F1FF"></path></svg>-->
-                  <img class="linkedin" src="./footage/linkedin.png" alt="">                  
+            </div>
+          </div>
+
+        <!---->
+          <div class="multi_display_grid_item multi_display_grid_item_2" data-tilt data-tilt-reverse="true" data-tilt-speed="4000" data-tilt-reset="false" data-tilt-max="13" >
+            <video class="multi_display_grid_item_video" autoplay playsinline loop muted src="./footage/videos/kundtjänst_chattbot_produkt_video.mp4"></video>
+          </div>
+        </div>
+      </div>
+
+      <div class="section_multi_display_div section_multi_display_div_top" style="background-image: url('./footage/background_circles2.png');">
+        <div class="multi_display_grid">
+          <div class="multi_display_grid_item">
+            <div class="multi_display_text_div">
+              <a href="https://calendly.com/nexeraautomation/introducerande" class="multi_display_a">
+                <h4 class="section_multi_display_h4">Persona chattbot</h4>
+                <p class="section_multi_display_p">En persona chattbot kan inte bara imitera hur specifika individer kommunicerar, utan den besitter även deras kunskap. Det innebär att du kan interagera med framstående entreprenörer, livscoacher, personliga tränare och liknande, och få tillgång till deras expertis utan att behöva betala för deras tid.</p>
+                <p class="section_multi_display_p_read_more">Boka samtal →</p>
               </a>
-        
             </div>
           </div>
 
-
-          <div class="section_founder_right">
-            <img class="section_founder_image" src="footage/IMG_2226.png" alt="">
+          <div class="multi_display_grid_item multi_display_grid_item_2"  data-tilt data-tilt-reverse="true" data-tilt-speed="4000" data-tilt-reset="false" data-tilt-max="13" >
+            <video class="multi_display_grid_item_video" autoplay loop playsinline muted src="./footage/videos/persona_chattbot_elon_musk_video.mp4"></video>
           </div>
         </div>
-      </section>
+      </div>
 
-      <!--
-      <section class="section_video">
-        <h2 class="section_h2">Ett meddelande från vår grundare:</h2>
-        <video class="section_video_div" controls=""><source src="-" type="video/mp4"></video>
-      </section>
-      -->
-
-      <section class="section_subscriptions" id="section_subscriptions_scroll">
-        <div class="section_subscriptions_titles_outer_container">
-          <div class="section_subscriptions_titles_container">
-            <div class="section_subscriptions_titles_left">
-              <h3 class="section_h3 section_subscriptions_h3">Our services</h3>
-              <p class="section_p section_subscriptions_p">We have three levels of subscriptions: choose the one that suits you best and get access to a wide range of benefits and features.</p>
+      <div class="section_multi_display_div" style="background-image: url('./footage/background_circles3.png');">
+        <div class="multi_display_grid">
+          <div class="multi_display_grid_item">
+            <div class="multi_display_text_div">
+              <a href="https://calendly.com/nexeraautomation/introducerande" class="multi_display_a">
+                <h4 class="section_multi_display_h4">Onboarding chattbot</h4>
+                <p class="section_multi_display_p">En onboarding chattbot kan besvara dina nya anställdas frågor utan att du behöver spendera resurser på kostsam onboarding. Guida din personal steg för steg genom en process där de får lära sig om företaget och känna sig trygga att ställa vilka frågor de än har, utan rädsla för att bli dömda.</p>
+                <p class="section_multi_display_p_read_more">Boka samtal →</p>
+              </a>
             </div>
+          </div>
 
-            <div class="section_subscriptions_titles_right">
-              <!--<svg class="section_subscriptions_svg" width="141" height="123" viewBox="0 0 141 123" fill="none" xmlns="https://www.w3.org/2000/svg"><path d="M28.721 52.0779L24.8903 41.5533L26.5743 40.9404L30.4049 51.465L28.721 52.0779ZM33.6663 50.2779L30.5143 41.6177C30.2443 40.876 30.2448 40.2146 30.5157 39.6336C30.7917 39.0507 31.3081 38.6215 32.0648 38.3461C32.3405 38.2458 32.602 38.1846 32.8494 38.1627C33.1 38.1339 33.3422 38.1366 33.576 38.1707L33.7438 39.5909C33.5693 39.5636 33.4089 39.5596 33.2626 39.5788C33.1164 39.5979 32.9781 39.6312 32.8478 39.6787C32.5421 39.7899 32.3198 39.9588 32.1809 40.1853C32.047 40.41 32.0484 40.7103 32.1852 41.0862L32.6039 42.2363L34.5584 41.5249L35.0564 42.8931L33.1018 43.6045L35.3127 49.6787L33.6663 50.2779ZM29.9595 44.7483L29.4615 43.3801L31.1755 42.7562L31.6735 44.1244L29.9595 44.7483ZM44.3163 50.2157C44.0457 50.3142 43.7691 50.3808 43.4866 50.4155C43.2041 50.4502 42.9111 50.4405 42.6076 50.3864L42.4691 48.8363C42.661 48.8799 42.8587 48.8931 43.0624 48.8757C43.2661 48.8583 43.4406 48.8232 43.5859 48.7703C43.9367 48.6426 44.1823 48.4596 44.3226 48.2213C44.4628 47.9829 44.5277 47.6698 44.5171 47.2821L44.5025 46.4701L38.8181 39.9746L40.6298 39.3151L44.791 44.3389L44.6968 37.8349L46.4484 37.1974L46.3309 46.8858C46.3175 47.5661 46.2281 48.1236 46.0628 48.5584C45.8994 48.9981 45.6684 49.3461 45.3701 49.6023C45.0735 49.8634 44.7223 50.0679 44.3163 50.2157ZM53.8527 43.1861C53.0759 43.4688 52.317 43.5436 51.576 43.4103C50.8383 43.2702 50.188 42.9648 49.6251 42.4943C49.0604 42.0188 48.6476 41.4226 48.3868 40.706C48.1934 40.1747 48.1087 39.638 48.1327 39.0958C48.1599 38.5467 48.2873 38.0236 48.515 37.5264C48.7477 37.0273 49.0713 36.5832 49.4859 36.194C49.9004 35.8047 50.4008 35.5034 50.9872 35.2899C51.764 35.0072 52.5213 34.9359 53.2591 35.076C54 35.2093 54.6528 35.5137 55.2175 35.9893C55.7804 36.4598 56.1923 37.0534 56.4531 37.7701C56.6446 38.2963 56.7268 38.834 56.6996 39.383C56.6775 39.9303 56.5525 40.4525 56.3249 40.9497C56.0972 41.4469 55.7761 41.8901 55.3615 42.2794C54.947 42.6686 54.444 42.9709 53.8527 43.1861ZM53.3191 41.7202C53.7802 41.5524 54.1522 41.3035 54.435 40.9735C54.7211 40.6367 54.8994 40.2454 54.9699 39.7998C55.0403 39.3541 54.9835 38.8782 54.7992 38.372C54.615 37.8658 54.3527 37.4647 54.0122 37.1686C53.6699 36.8676 53.2819 36.6824 52.8481 36.6133C52.4193 36.5424 51.9743 36.5908 51.5132 36.7586C51.0522 36.9264 50.6777 37.1762 50.3898 37.508C50.107 37.838 49.9312 38.2283 49.8625 38.679C49.797 39.1228 49.8564 39.5978 50.0406 40.104C50.2249 40.6102 50.4872 41.0113 50.8277 41.3074C51.1682 41.6035 51.5537 41.7895 51.9843 41.8655C52.4181 41.9346 52.8631 41.8862 53.3191 41.7202ZM62.4225 40.0669C61.756 40.3095 61.1564 40.3774 60.6237 40.2704C60.0942 40.1567 59.6414 39.9185 59.2654 39.5559C58.8893 39.1933 58.6065 38.7514 58.4168 38.2302L56.6848 33.4716L58.3386 32.8696L59.9585 37.32C60.1445 37.8312 60.4444 38.1875 60.8582 38.3887C61.2752 38.5832 61.7518 38.5828 62.2881 38.3876C62.6389 38.2599 62.9239 38.0683 63.143 37.8126C63.3602 37.5519 63.4971 37.2495 63.5535 36.9055C63.6149 36.5596 63.5772 36.1987 63.4404 35.8229L61.8944 31.5754L63.5483 30.9735L66.2571 38.4159L64.7686 38.9576L64.4485 38.0781C64.2855 38.5347 64.0391 38.9337 63.7093 39.2751C63.3827 39.6096 62.9538 39.8736 62.4225 40.0669ZM72.2427 36.2373L68.3026 25.412L69.9565 24.8101L71.7405 29.7115L71.2681 29.4663C71.4311 28.8848 71.7045 28.3965 72.0885 28.0013C72.4707 27.6011 72.9199 27.3071 73.4361 27.1192C74.1127 26.873 74.7267 26.8056 75.2781 26.917C75.8276 27.0235 76.2936 27.2512 76.676 27.6001C77.0584 27.949 77.3344 28.3565 77.5041 28.8226L79.2716 33.679L77.6178 34.2809L76.0226 29.8982C75.8329 29.377 75.5158 29.0128 75.0715 28.8056C74.6272 28.5984 74.1235 28.5944 73.5603 28.7937C73.1895 28.9287 72.8913 29.1309 72.6658 29.4002C72.4385 29.6646 72.296 29.9747 72.2382 30.3306C72.1855 30.6846 72.2302 31.0571 72.3725 31.448L73.8966 35.6353L72.2427 36.2373ZM84.7247 31.9496C83.983 32.2196 83.2645 32.2881 82.5691 32.1553C81.8769 32.0156 81.2603 31.7093 80.7193 31.2365C80.1815 30.7569 79.7749 30.1387 79.4994 29.3819C79.2933 28.8156 79.1954 28.2581 79.2057 27.7095C79.216 27.1609 79.3243 26.6476 79.5306 26.1695C79.7369 25.6915 80.0375 25.2699 80.4324 24.9048C80.8274 24.5397 81.3005 24.2568 81.8518 24.0562C82.5835 23.7898 83.2515 23.7227 83.8557 23.8546C84.465 23.9848 84.9893 24.248 85.4286 24.6443L85.3242 25.0824L84.6702 23.2857L86.1437 22.7494L88.8525 30.1918L87.379 30.7281L86.7251 28.9314L87.0867 29.1999C87.0049 29.7859 86.7724 30.3246 86.3894 30.8159C86.0113 31.3054 85.4565 31.6833 84.7247 31.9496ZM84.4092 30.4043C84.8603 30.2401 85.2272 29.9931 85.5101 29.6631C85.7911 29.3281 85.9644 28.9387 86.0299 28.4949C86.1004 28.0492 86.0435 27.5733 85.8593 27.0671C85.675 26.5609 85.4127 26.1598 85.0722 25.8637C84.7349 25.5608 84.3519 25.3739 83.9231 25.3029C83.4943 25.232 83.0544 25.2786 82.6033 25.4427C82.1473 25.6087 81.7778 25.8567 81.4949 26.1867C81.2171 26.5149 81.0438 26.9043 80.9752 27.3549C80.9047 27.8006 80.9615 28.2765 81.1458 28.7827C81.33 29.2889 81.5923 29.69 81.9328 29.9861C82.2733 30.2821 82.6563 30.4691 83.0819 30.5469C83.5107 30.6178 83.9531 30.5703 84.4092 30.4043ZM93.0033 28.681L87.5131 22.251L89.3248 21.5916L93.5763 26.8635L93.3282 26.9538L93.1587 20.1962L94.9178 19.5559L94.8978 27.9915L93.0033 28.681ZM102.401 25.5159C101.599 25.8077 100.836 25.9012 100.111 25.7961C99.3841 25.6861 98.7427 25.3974 98.1866 24.93C97.6356 24.4609 97.2178 23.8354 96.9333 23.0535C96.7253 22.4822 96.6315 21.9204 96.6518 21.3681C96.6704 20.8109 96.7928 20.2896 97.0191 19.8042C97.2454 19.3189 97.5611 18.8918 97.966 18.5231C98.376 18.1525 98.8642 17.8642 99.4305 17.658C100.047 17.4337 100.636 17.3442 101.197 17.3896C101.757 17.43 102.266 17.5882 102.724 17.8642C103.187 18.1383 103.579 18.5148 103.901 18.9936C104.226 19.4656 104.455 20.0237 104.587 20.668L98.6481 22.8295C98.8004 23.2792 99.0404 23.6346 99.3681 23.8956C99.694 24.1515 100.081 24.3029 100.529 24.3497C100.983 24.3947 101.47 24.3223 101.991 24.1326C102.412 23.9794 102.796 23.769 103.141 23.5014C103.489 23.227 103.778 22.9062 104.008 22.5388L105.079 23.494C104.91 23.777 104.68 24.0507 104.39 24.3151C104.099 24.5745 103.78 24.8067 103.435 25.0119C103.092 25.222 102.747 25.39 102.401 25.5159ZM98.3025 21.5761L102.52 20.0411C102.301 19.4853 101.96 19.1099 101.497 18.915C101.04 18.7183 100.495 18.7349 99.8635 18.9647C99.2521 19.1873 98.8018 19.5328 98.5126 20.0013C98.2284 20.468 98.1584 20.9929 98.3025 21.5761ZM43.2364 73.7823L41.477 68.9485L41.9494 69.1937C41.7919 69.7902 41.5152 70.3166 41.1194 70.7728C40.7217 71.224 40.1846 71.5728 39.5081 71.819C38.7713 72.0872 38.056 72.1489 37.362 72.0042C36.6661 71.8545 36.0518 71.5389 35.519 71.0574C34.9862 70.576 34.5866 69.9694 34.3203 69.2377C34.1142 68.6713 34.0138 68.1148 34.0191 67.568C34.0294 67.0194 34.1352 66.507 34.3365 66.0307C34.5377 65.5545 34.8308 65.1357 35.2157 64.7742C35.6007 64.4128 36.0663 64.1326 36.6125 63.9338C37.1287 63.7459 37.6103 63.6501 38.0573 63.6463C38.5043 63.6426 38.9138 63.7149 39.2856 63.8633C39.6607 64.0049 39.9959 64.2007 40.2912 64.4508L40.1875 64.9143L39.5362 63.1251L41.0247 62.5833L44.8827 73.1831L43.2364 73.7823ZM39.2527 70.2519C39.7137 70.0841 40.0857 69.8352 40.3686 69.5052C40.6546 69.1684 40.8329 68.7771 40.9034 68.3315C40.9739 67.8858 40.917 67.4099 40.7328 66.9037C40.5485 66.3975 40.2862 65.9964 39.9457 65.7003C39.6034 65.3992 39.2154 65.2141 38.7816 65.145C38.3528 65.074 37.9079 65.1225 37.4468 65.2903C36.9907 65.4563 36.6187 65.7052 36.3309 66.037C36.048 66.367 35.8722 66.7573 35.8036 67.208C35.7331 67.6536 35.7899 68.1295 35.9742 68.6357C36.1584 69.1419 36.4208 69.543 36.7612 69.8391C37.1017 70.1352 37.4872 70.3212 37.9178 70.3972C38.3466 70.4681 38.7916 70.4197 39.2527 70.2519ZM48.9874 68.3688C48.3209 68.6114 47.7213 68.6793 47.1886 68.5723C46.6591 68.4586 46.2063 68.2204 45.8303 67.8578C45.4542 67.4952 45.1714 67.0533 44.9817 66.5321L43.2497 61.7735L44.9035 61.1715L46.5233 65.6219C46.7094 66.1331 47.0093 66.4894 47.4231 66.6906C47.8401 66.8851 48.3167 66.8847 48.853 66.6895C49.2038 66.5618 49.4888 66.3702 49.7079 66.1145C49.9251 65.8538 50.062 65.5514 50.1184 65.2074C50.1798 64.8615 50.1421 64.5006 50.0053 64.1247L48.4593 59.8773L50.1132 59.2754L52.822 66.7177L51.3335 67.2595L51.0134 66.38C50.8504 66.8366 50.604 67.2356 50.2742 67.577C49.9476 67.9115 49.5187 68.1755 48.9874 68.3688ZM58.6023 64.8693C57.8004 65.1612 57.037 65.2546 56.312 65.1495C55.5852 65.0395 54.9437 64.7508 54.3877 64.2834C53.8367 63.8143 53.4189 63.1888 53.1343 62.407C52.9264 61.8356 52.8326 61.2738 52.8529 60.7216C52.8714 60.1643 52.9939 59.643 53.2202 59.1576C53.4465 58.6723 53.7621 58.2452 54.1671 57.8765C54.5771 57.5059 55.0652 57.2176 55.6316 57.0115C56.248 56.7871 56.8369 56.6976 57.3983 56.743C57.9579 56.7834 58.4666 56.9416 58.9247 57.2176C59.3877 57.4918 59.7801 57.8682 60.102 58.347C60.427 58.819 60.6557 59.3771 60.788 60.0214L54.8491 62.1829C55.0014 62.6326 55.2415 62.988 55.5692 63.249C55.895 63.505 56.2821 63.6563 56.7305 63.7031C57.1839 63.7481 57.6712 63.6758 58.1924 63.4861C58.6134 63.3328 58.9966 63.1224 59.3419 62.8549C59.6904 62.5804 59.9794 62.2596 60.2089 61.8923L61.2802 62.8474C61.1108 63.1305 60.8813 63.4042 60.5915 63.6685C60.3 63.9279 59.9816 64.1601 59.6362 64.3653C59.2927 64.5754 58.9481 64.7434 58.6023 64.8693ZM54.5036 60.9295L58.7209 59.3945C58.5016 58.8387 58.1607 58.4633 57.6981 58.2685C57.2406 58.0718 56.6961 58.0883 56.0646 58.3182C55.4532 58.5407 55.0028 58.8862 54.7136 59.3547C54.4295 59.8214 54.3594 60.3463 54.5036 60.9295ZM66.3165 62.053C65.7001 62.2774 65.0918 62.3995 64.4917 62.4192C63.8916 62.439 63.3548 62.3676 62.8814 62.2051L63.0648 60.7677C63.5091 60.9124 63.975 60.9841 64.4626 60.9826C64.9551 60.9792 65.4119 60.9009 65.8329 60.7477C66.319 60.5708 66.6664 60.3479 66.875 60.079C67.0836 59.8101 67.1323 59.5228 67.021 59.217C66.9152 58.9264 66.7199 58.7562 66.4351 58.7067C66.1535 58.6502 65.6596 58.6654 64.9534 58.7522C63.945 58.8979 63.1631 58.8703 62.6076 58.6695C62.0553 58.4619 61.6633 58.0398 61.4316 57.4034C61.2693 56.9573 61.2489 56.5192 61.3704 56.089C61.4951 55.652 61.7399 55.2564 62.1048 54.9023C62.4697 54.5481 62.9378 54.2671 63.5091 54.0591C64.0654 53.8566 64.6183 53.7462 65.1679 53.7278C65.7155 53.7044 66.2218 53.7699 66.6866 53.9242L66.5435 55.3555C66.2979 55.2576 66.0304 55.1932 65.741 55.1623C65.4517 55.1314 65.1573 55.1335 64.858 55.1687C64.5618 55.197 64.2784 55.2605 64.0078 55.359C63.5868 55.5122 63.2736 55.7198 63.0682 55.9819C62.8659 56.2371 62.8168 56.5076 62.9208 56.7932C63.0284 57.0889 63.233 57.2613 63.5347 57.3105C63.8364 57.3596 64.3184 57.343 64.9809 57.2608C66.0198 57.1211 66.8111 57.1509 67.3547 57.3503C67.8984 57.5498 68.2833 57.9602 68.5095 58.5816C68.6828 59.0578 68.7064 59.5202 68.5803 59.9691C68.4524 60.413 68.1935 60.8165 67.8035 61.1798C67.4186 61.5412 66.9229 61.8323 66.3165 62.053ZM74.3651 59.1321C73.6384 59.3966 72.9805 59.3977 72.3912 59.1354C71.802 58.8731 71.3496 58.3085 71.034 57.4414L68.3854 50.1645L70.0393 49.5625L70.83 51.7351L72.8973 50.9826L73.3953 52.3508L71.328 53.1033L72.5565 56.4786C72.7462 56.9999 72.978 57.3327 73.2519 57.477C73.529 57.6145 73.848 57.6176 74.2088 57.4863C74.3842 57.4225 74.5423 57.3422 74.6831 57.2456C74.8239 57.1489 74.945 57.0452 75.0466 56.9345L75.8268 58.1659C75.6515 58.3546 75.4362 58.5351 75.1811 58.7074C74.9328 58.8829 74.6608 59.0245 74.3651 59.1321ZM68.0428 54.299L67.5448 52.9308L69.3942 52.2577L69.8921 53.6259L68.0428 54.299ZM77.6161 57.6934L74.9073 50.2511L76.5612 49.6491L79.27 57.0915L77.6161 57.6934ZM75.25 48.6195C74.9543 48.7271 74.664 48.7249 74.3792 48.6129C74.0944 48.5009 73.8954 48.2895 73.7823 47.9788C73.6711 47.6731 73.6885 47.3858 73.8347 47.1169C73.9791 46.843 74.1991 46.6523 74.4948 46.5446C74.7905 46.437 75.0816 46.4417 75.3683 46.5587C75.6531 46.6707 75.8512 46.8796 75.9624 47.1853C76.0755 47.496 76.059 47.7858 75.9128 48.0547C75.7666 48.3236 75.5457 48.5118 75.25 48.6195ZM85.0383 55.2474C84.2615 55.5301 83.5026 55.6048 82.7617 55.4716C82.0239 55.3314 81.3736 55.0261 80.8107 54.5556C80.246 54.08 79.8332 53.4839 79.5724 52.7673C79.379 52.236 79.2944 51.6993 79.3183 51.157C79.3455 50.608 79.473 50.0848 79.7006 49.5876C79.9333 49.0886 80.2569 48.6445 80.6715 48.2552C81.086 47.866 81.5865 47.5646 82.1728 47.3512C82.9496 47.0685 83.7069 46.9972 84.4447 47.1373C85.1856 47.2706 85.8384 47.575 86.4031 48.0506C86.966 48.5211 87.3779 49.1147 87.6387 49.8314C87.8302 50.3576 87.9124 50.8952 87.8852 51.4443C87.8631 51.9916 87.7382 52.5138 87.5105 53.011C87.2828 53.5082 86.9617 53.9514 86.5472 54.3406C86.1326 54.7299 85.6297 55.0321 85.0383 55.2474ZM84.5047 53.7815C84.9658 53.6136 85.3378 53.3647 85.6206 53.0348C85.9067 52.698 86.085 52.3067 86.1555 51.8611C86.226 51.4154 86.1691 50.9395 85.9849 50.4333C85.8006 49.9271 85.5383 49.526 85.1978 49.2299C84.8555 48.9288 84.4675 48.7437 84.0337 48.6746C83.6049 48.6036 83.1599 48.6521 82.6989 48.8199C82.2378 48.9877 81.8633 49.2375 81.5754 49.5693C81.2926 49.8993 81.1168 50.2896 81.0481 50.7403C80.9826 51.1841 81.042 51.6591 81.2263 52.1653C81.4105 52.6715 81.6728 53.0726 82.0133 53.3687C82.3538 53.6648 82.7393 53.8508 83.1699 53.9268C83.6037 53.9959 84.0487 53.9475 84.5047 53.7815ZM90.6544 52.9479L87.9456 45.5055L89.5994 44.9036L89.9442 45.8508C90.1035 45.3217 90.3558 44.8922 90.7011 44.5622C91.0446 44.2272 91.4368 43.9794 91.8779 43.8189C92.5594 43.5708 93.1725 43.5009 93.7171 43.6092C94.2616 43.7175 94.7191 43.9454 95.0897 44.293C95.4653 44.6387 95.7351 45.0371 95.8993 45.4881L97.6833 50.3896L96.0294 50.9915L94.4315 46.6013C94.2381 46.07 93.9227 45.7024 93.4852 45.4984C93.0527 45.2926 92.5533 45.2927 91.987 45.4989C91.6162 45.6338 91.3155 45.8369 91.085 46.1081C90.8595 46.3775 90.7179 46.6901 90.6602 47.046C90.6006 47.3969 90.6419 47.7678 90.7842 48.1587L92.3082 52.3459L90.6544 52.9479ZM102.495 48.8853C101.878 49.1096 101.27 49.2317 100.67 49.2515C100.07 49.2712 99.533 49.1999 99.0595 49.0373L99.243 47.5999C99.6873 47.7447 100.153 47.8163 100.641 47.8148C101.133 47.8114 101.59 47.7332 102.011 47.5799C102.497 47.403 102.845 47.1801 103.053 46.9112C103.262 46.6423 103.31 46.355 103.199 46.0493C103.093 45.7586 102.898 45.5885 102.613 45.5389C102.332 45.4825 101.838 45.4976 101.132 45.5844C100.123 45.7301 99.3413 45.7025 98.7858 45.5017C98.2335 45.2941 97.8415 44.8721 97.6098 44.2356C97.4475 43.7895 97.4271 43.3514 97.5486 42.9212C97.6733 42.4842 97.9181 42.0887 98.283 41.7345C98.6479 41.3803 99.116 41.0993 99.6873 40.8913C100.244 40.6889 100.797 40.5784 101.346 40.5601C101.894 40.5367 102.4 40.6021 102.865 40.7564L102.722 42.1877C102.476 42.0898 102.209 42.0254 101.919 41.9945C101.63 41.9636 101.336 41.9658 101.036 42.0009C100.74 42.0293 100.457 42.0927 100.186 42.1912C99.765 42.3444 99.4518 42.5521 99.2463 42.8141C99.0441 43.0694 98.995 43.3398 99.0989 43.6255C99.2066 43.9212 99.4112 44.0936 99.7129 44.1427C100.015 44.1918 100.497 44.1753 101.159 44.093C102.198 43.9533 102.989 43.9831 103.533 44.1826C104.077 44.382 104.461 44.7924 104.688 45.4139C104.861 45.89 104.885 46.3525 104.758 46.8013C104.631 47.2452 104.372 47.6487 103.982 48.012C103.597 48.3735 103.101 48.6645 102.495 48.8853ZM107.502 43.1294C107.17 42.6206 106.954 42.1852 106.857 41.8235C106.762 41.4549 106.771 41.1113 106.882 40.7928C106.993 40.4742 107.192 40.1263 107.481 39.7489C107.877 39.2303 108.118 38.8246 108.204 38.5321C108.291 38.2395 108.283 37.9529 108.181 37.6723C108.018 37.2262 107.739 36.9504 107.343 36.8448C106.945 36.7342 106.461 36.7829 105.89 36.9908C105.479 37.1404 105.129 37.333 104.84 37.5687C104.551 37.8043 104.306 38.0751 104.105 38.3809L103.169 37.1639C103.281 36.9583 103.452 36.7428 103.682 36.5171C103.911 36.2865 104.191 36.0679 104.525 35.8614C104.857 35.6499 105.23 35.4684 105.646 35.317C106.288 35.0836 106.9 34.9799 107.483 35.0062C108.064 35.0274 108.571 35.1806 109.004 35.4657C109.44 35.744 109.756 36.1513 109.951 36.6875C110.062 36.9932 110.112 37.3015 110.1 37.6122C110.091 37.9162 110.005 38.2484 109.841 38.6088C109.677 38.9693 109.425 39.382 109.083 39.8469C108.839 40.1741 108.677 40.4628 108.598 40.713C108.517 40.9581 108.517 41.2222 108.597 41.5051C108.675 41.7831 108.832 42.1348 109.066 42.5603L107.502 43.1294ZM109.619 46.3009C109.298 46.4176 108.985 46.4152 108.68 46.2936C108.374 46.172 108.161 45.9459 108.041 45.6151C107.959 45.3896 107.94 45.175 107.985 44.9713C108.029 44.7626 108.122 44.5812 108.264 44.4271C108.41 44.2663 108.591 44.1466 108.806 44.0682C109.132 43.9496 109.447 43.9511 109.753 44.0727C110.056 44.1892 110.27 44.4179 110.394 44.7587C110.474 44.9792 110.49 45.1947 110.442 45.4053C110.397 45.6089 110.301 45.7887 110.153 45.9446C110.012 46.1037 109.834 46.2224 109.619 46.3009Z" fill="#F6F1FF"></path><path d="M86.9651 78.9376L86.5989 78.283L85.2898 79.0154L85.656 79.6699L86.9651 78.9376ZM139.757 118.101C140.09 117.855 140.16 117.385 139.913 117.052L135.891 111.631C135.644 111.299 135.174 111.229 134.842 111.476C134.509 111.723 134.439 112.192 134.686 112.525L138.261 117.344L133.443 120.919C133.11 121.166 133.041 121.635 133.287 121.968C133.534 122.301 134.004 122.37 134.337 122.123L139.757 118.101ZM85.656 79.6699C88.2754 84.3521 94.8354 92.968 104.126 100.918C113.419 108.869 125.51 116.213 139.201 118.241L139.42 116.757C126.111 114.785 114.273 107.627 105.101 99.7782C95.9275 91.9283 89.4875 83.4464 86.9651 78.9376L85.656 79.6699Z" fill="#F6F1FF"></path></svg>
-              -->
-                <img src="./footage/questions.png" alt="" class="section_subscriptions_png" width="120">
-
-              <div class="button_standard section_subscriptions_button">
-                <a target="_blank" href="https://calendly.com/nexeraautomation/introducerande">Book a call</a>
-              </div>
-            </div>
+          <div class="multi_display_grid_item multi_display_grid_item_2"  data-tilt data-tilt-reverse="true" data-tilt-speed="4000" data-tilt-reset="false" data-tilt-max="13" >
+            <video class="multi_display_grid_item_video" autoplay loop muted playsinline src="./footage/videos/kundtjänst_chattbot_produkt_video.mp4"></video>
           </div>
         </div>
+      </div>
 
-        <div class="section_subscriptions_option_container">
-          <div class="section_subscriptions_option section_subscriptions_option_1">
-            <h4 class="section_h4 section_subscriptions_h4">Basic</h4>
-            <p class="section_p section_subscriptions_option_ptitle1">Resolve over 80% of cases</p>
-            <hr class="solid section_subscriptions_line">
-            <h4 class="section_h4 section_subscriptions_h4 section_subscriptions_center">97 $ <br><span class="smallertext">per month</span></h4>
-            <div class="section_subscription_notes">
-              <h6 class="section_subscriptions_h6">+ variable fee based on usage</h6>
-            </div>
-            <hr class="solid section_subscriptions_line">
-            <p class="section_p section_subscriptions_option_ptitle2">What is included:</p>
-
-            <ul>
-              <li class="section_p section_subscriptions_option_p">
-                <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="inline-block my-auto mr-2 h-2 w-2"><path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd"></path></svg>
-                AI chatbot for customer service.
-              </li>
-              <li class="section_p section_subscriptions_option_p">
-                <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="inline-block my-auto mr-2 h-2 w-2"><path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd"></path></svg>
-                24/7 Availability.
-              </li>
-              <li class="section_p section_subscriptions_option_p">
-                <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="inline-block my-auto mr-2 h-2 w-2"><path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd"></path></svg>
-                Simple branding.
-              </li>
-              <li class="section_p section_subscriptions_option_p">
-                <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="inline-block my-auto mr-2 h-2 w-2"><path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd"></path></svg>
-                Support for multiple languages.
-              </li>
-              <li class="section_p section_subscriptions_option_p">
-                <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="inline-block my-auto mr-2 h-2 w-2"><path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd"></path></svg>
-                Basic statistics.
-              </li>
-            </ul>
-
-            <div class="button_standard section_subscriptions_option_button section_subscriptions_center">
-              <a target="_blank" href="https://calendly.com/nexeraautomation/introducerande">Book a call</a>
-            </div>
-
-          </div>
-
-          <div class="section_subscriptions_option section_subscriptions_option2">
-            <h4 class="section_h4 section_subscriptions_h4">Advanced</h4>
-            <p class="section_p section_subscriptions_option_ptitle1">Take your brand to new heights</p>
-            <hr class="solid section_subscriptions_line">
-            <h4 class="section_h4 section_subscriptions_h4 section_subscriptions_center"><span class="section_subscriptions_oldprice">497 $</span></h4>
-            <h4 class="section_h4 section_subscriptions_h4 section_subscriptions_center"><span class="section_subscriptions_newprice">297 $</span> <br></kr><span class="smallertext">per month</span></h4>
-            <div class="section_subscription_notes">
-              <h6 class="section_subscriptions_h6">+ variable fee based on usage</h6>
-            </div>
-              <hr class="solid section_subscriptions_line">
-            <p class="section_p section_subscriptions_option_ptitle2">What is included:</p>
-
-            <ul>
-              <li class="section_p section_subscriptions_option_p">
-                <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="inline-block my-auto mr-2 h-2 w-2"><path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd"></path></svg>
-                Everything in basic.
-              </li>
-              <li class="section_p section_subscriptions_option_p">
-                <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="inline-block my-auto mr-2 h-2 w-2"><path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd"></path></svg>
-                Priority support.
-              </li>
-              <li class="section_p section_subscriptions_option_p">
-                <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="inline-block my-auto mr-2 h-2 w-2"><path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd"></path></svg>
-                Intricate branding.
-              </li>
-              <li class="section_p section_subscriptions_option_p">
-                <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="inline-block my-auto mr-2 h-2 w-2"><path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd"></path></svg>
-                Advanced statistics.
-              </li>
-              <li class="section_p section_subscriptions_option_p">
-                <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="inline-block my-auto mr-2 h-2 w-2"><path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd"></path></svg>
-                Access to chat logs.
-              </li>
-              <li class="section_p section_subscriptions_option_p">
-                <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="inline-block my-auto mr-2 h-2 w-2"><path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd"></path></svg>
-                Improved security.
-              </li>
-            </ul>
-
-            <div class="button_standard section_subscriptions_option_button section_subscriptions_center">
-              <a target="_blank" href="https://calendly.com/nexeraautomation/introducerande">Book a call</a>
+      <div class="section_multi_display_div section_multi_display_div_top" style="background-image: url('./footage/background_circles4.png');">
+        <div class="multi_display_grid">
+          <div class="multi_display_grid_item">
+            <div class="multi_display_text_div">
+              <a href="https://calendly.com/nexeraautomation/introducerande" class="multi_display_a">
+                <h4 class="section_multi_display_h4">Skräddarsydd utveckling</h4>
+                <p class="section_multi_display_p">Nexera Automation fokuserar på att använda konstgjord intelligens för att automatisera olika arbetsprocesser. Vi är redo att ta emot förfrågningar för skräddarsydd utveckling som kan lösa dina specifika problem.</p>
+                <p class="section_multi_display_p_read_more">Boka samtal →</p>
+              </a>
             </div>
           </div>
 
-          <div class="section_subscriptions_option">
-            <h4 class="section_h4 section_subscriptions_h4">World-leading</h4>
-            <p class="section_p section_subscriptions_option_ptitle1">The absolute pinnacle of the customer service</p>
-            <hr class="solid section_subscriptions_line">
-            <h4 class="section_h4 section_subscriptions_h4 section_subscriptions_center">597 $ <br><span class="smallertext">per month</span></h4>
-            <div class="section_subscription_notes">
-              <h6 class="section_subscriptions_h6">+ variable fee based on usage</h6>
-            </div>
-            <hr class="solid section_subscriptions_line">
-            <p class="section_p section_subscriptions_option_ptitle2">What is included:</p>
-
-            <ul>
-              <li class="section_p section_subscriptions_option_p">
-                <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="inline-block my-auto mr-2 h-2 w-2"><path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd"></path></svg>
-                Everything in advanced.
-              </li>
-              <li class="section_p section_subscriptions_option_p">
-                <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="inline-block my-auto mr-2 h-2 w-2"><path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd"></path></svg>
-                AI-driven product recommendations.
-              </li>
-              <li class="section_p section_subscriptions_option_p">
-                <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="inline-block my-auto mr-2 h-2 w-2"><path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd"></path></svg>
-                CRM integration.
-              </li>
-              <li class="section_p section_subscriptions_option_p">
-                <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="inline-block my-auto mr-2 h-2 w-2"><path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd"></path></svg>
-                Unlimited scaling.
-              </li>
-              <li class="section_p section_subscriptions_option_p">
-                <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="inline-block my-auto mr-2 h-2 w-2"><path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd"></path></svg>
-                Bespoke development.
-              </li>
-            </ul>
-
-            <div class="button_standard section_subscriptions_option_button section_subscriptions_center">
-              <a target="_blank" href="https://calendly.com/nexeraautomation/introducerande">Book a call</a>
-            </div>
+          <div class="multi_display_grid_item multi_display_grid_item_2"  data-tilt data-tilt-reverse="true" data-tilt-speed="4000" data-tilt-reset="false" data-tilt-max="13" >
+            <video class="multi_display_grid_item_video" autoplay loop muted playsinline src="./footage/videos/kundtjänst_chattbot_produkt_video.mp4"></video>
           </div>
         </div>
-      </section>
+      </div>
 
-
-      <section class="section_faq" id="section_faq_scroll">
-        <div class="section_faq_container">
-          <div class="section_faq_left">
-            <h3 class="section_h3 section_faq_h3">Frequently asked questions and answers</h3>
-            <img class="section_faq_image" src="footage/faq.svg" alt="">
-          </div>
-
-          <div class="section_faq_right">
-            <div class="section_faq_dropdown_container">
-              <div class="section_faq_dropdown_flex">
-                <button type="button" class="section_faq_dropdown_button">
-                  <div class="section_faq_dropdown_icon_container">
-                    <svg class="section_faq_dropdown_icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 text-white/50 group-hover:text-white transition duration-300 ease-in-out"><path fill-rule="evenodd" d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z" clip-rule="evenodd"></path></svg>              
-                    <svg class="section_faq_dropdown_collapsible_icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 text-white/50 group-hover:text-white transition duration-300 ease-in-out"><path fill-rule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z" clip-rule="evenodd"></path></svg>
-                  </div>
-                </button>
-                <p class="section_p section_faq_dropdown_p">Which companies are suitable for Nexera Automation?</p>
-              </div>
-
-              <div class="section_faq_dropdown_collapsible_container">
-                <p class="section_p section_faq_dropdown_collapsible_p">A brilliant question! Nexera Automation caters to entrepreneurs and small to medium sized businesses who are looking to bulletproof their business via AI. Our customer service chatbots can be seamlessly integrated into your business in just a few days.</p>
-              </div>
-            </div>
-
-            <div class="section_faq_dropdown_container">
-              <div class="section_faq_dropdown_flex">
-                <button type="button" class="section_faq_dropdown_button">
-                  <div class="section_faq_dropdown_icon_container">
-                    <svg class="section_faq_dropdown_icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 text-white/50 group-hover:text-white transition duration-300 ease-in-out"><path fill-rule="evenodd" d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z" clip-rule="evenodd"></path></svg>              
-                    <svg class="section_faq_dropdown_collapsible_icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 text-white/50 group-hover:text-white transition duration-300 ease-in-out"><path fill-rule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z" clip-rule="evenodd"></path></svg>
-                  </div>
-                </button>
-                <p class="section_p section_faq_dropdown_p">Can I customize the chatbot to reflect my brand's personality and style?</p>
-              </div>
-
-              <div class="section_faq_dropdown_collapsible_container">
-                <p class="section_p section_faq_dropdown_collapsible_p">Absolutely, we can customize the chatbot's response and appearance to match your brand identity and create a unique customer experience.</p>
-              </div>
-            </div>
-
-            <div class="section_faq_dropdown_container">
-              <div class="section_faq_dropdown_flex">
-                <button type="button" class="section_faq_dropdown_button">
-                  <div class="section_faq_dropdown_icon_container">
-                    <svg class="section_faq_dropdown_icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 text-white/50 group-hover:text-white transition duration-300 ease-in-out"><path fill-rule="evenodd" d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z" clip-rule="evenodd"></path></svg>              
-                    <svg class="section_faq_dropdown_collapsible_icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 text-white/50 group-hover:text-white transition duration-300 ease-in-out"><path fill-rule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z" clip-rule="evenodd"></path></svg>
-                  </div>
-                </button>
-                <p class="section_p section_faq_dropdown_p">Can the chatbot be integrated with my existing systems and website?</p>
-              </div>
-
-              <div class="section_faq_dropdown_collapsible_container">
-                <p class="section_p section_faq_dropdown_collapsible_p">Absolutely, our chatbot integrates smoothly with your existing systems, ensuring a hassle-free installation process.</p>
-              </div>
-            </div>
-
-            <div class="section_faq_dropdown_container">
-              <div class="section_faq_dropdown_flex">
-                <button type="button" class="section_faq_dropdown_button">
-                  <div class="section_faq_dropdown_icon_container">
-                    <svg class="section_faq_dropdown_icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 text-white/50 group-hover:text-white transition duration-300 ease-in-out"><path fill-rule="evenodd" d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z" clip-rule="evenodd"></path></svg>              
-                    <svg class="section_faq_dropdown_collapsible_icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 text-white/50 group-hover:text-white transition duration-300 ease-in-out"><path fill-rule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z" clip-rule="evenodd"></path></svg>
-                  </div>
-                </button>
-                <p class="section_p section_faq_dropdown_p">What happens if the chatbot cannot answer a customer's question?</p>
-              </div>
-
-              <div class="section_faq_dropdown_collapsible_container">
-                <p class="section_p section_faq_dropdown_collapsible_p">If the chatbot cannot help the customer, it will transfer the conversation to a human customer service agent who can assist the customer.</p>
-              </div>
-            </div>
-
-            <div class="section_faq_dropdown_container">
-              <div class="section_faq_dropdown_flex">
-                <button type="button" class="section_faq_dropdown_button">
-                  <div class="section_faq_dropdown_icon_container">
-                    <svg class="section_faq_dropdown_icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 text-white/50 group-hover:text-white transition duration-300 ease-in-out"><path fill-rule="evenodd" d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z" clip-rule="evenodd"></path></svg>              
-                    <svg class="section_faq_dropdown_collapsible_icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 text-white/50 group-hover:text-white transition duration-300 ease-in-out"><path fill-rule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z" clip-rule="evenodd"></path></svg>
-                  </div>
-                </button>
-                <p class="section_p section_faq_dropdown_p">Will the chatbot reduce my customer service costs?</p>
-              </div>
-
-              <div class="section_faq_dropdown_collapsible_container">
-                <p class="section_p section_faq_dropdown_collapsible_p">Yes, by automating routine tasks and requests, the chatbot can significantly reduce your customer support costs, allowing you to allocate resources more efficiently.</p>
-              </div>
-            </div>
-
-            <div class="section_faq_dropdown_container">
-              <div class="section_faq_dropdown_flex">
-                <button type="button" class="section_faq_dropdown_button">
-                  <div class="section_faq_dropdown_icon_container">
-                    <svg class="section_faq_dropdown_icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 text-white/50 group-hover:text-white transition duration-300 ease-in-out"><path fill-rule="evenodd" d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z" clip-rule="evenodd"></path></svg>              
-                    <svg class="section_faq_dropdown_collapsible_icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 text-white/50 group-hover:text-white transition duration-300 ease-in-out"><path fill-rule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z" clip-rule="evenodd"></path></svg>
-                  </div>
-                </button>
-                <p class="section_p section_faq_dropdown_p">Does the chatbot keep up with the latest e-commerce trends and technologies?</p>
-              </div>
-
-              <div class="section_faq_dropdown_collapsible_container">
-                <p class="section_p section_faq_dropdown_collapsible_p">Yes, we are continuously updating and improving our chatbot to incorporate the latest e-commerce trends and technologies to keep your business at the forefront.</p>
-              </div>
-            </div>
-
-            <div class="section_faq_dropdown_container">
-              <div class="section_faq_dropdown_flex">
-                <button type="button" class="section_faq_dropdown_button">
-                  <div class="section_faq_dropdown_icon_container">
-                    <svg class="section_faq_dropdown_icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 text-white/50 group-hover:text-white transition duration-300 ease-in-out"><path fill-rule="evenodd" d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z" clip-rule="evenodd"></path></svg>              
-                    <svg class="section_faq_dropdown_collapsible_icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 text-white/50 group-hover:text-white transition duration-300 ease-in-out"><path fill-rule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z" clip-rule="evenodd"></path></svg>
-                  </div>
-                </button>
-                <p class="section_p section_faq_dropdown_p">How do you ensure that the chatbot does not give inappropriate answers?</p>
-              </div>
-
-              <div class="section_faq_dropdown_collapsible_container">
-                <p class="section_p section_faq_dropdown_collapsible_p">The chatbot follows predefined guidelines and instructions to ensure it delivers consistent, high-quality interactions that align with your brand's values and standards.</p>
-              </div>
-            </div>
-
-            <div class="section_faq_dropdown_container">
-              <div class="section_faq_dropdown_flex">
-                <button type="button" class="section_faq_dropdown_button">
-                  <div class="section_faq_dropdown_icon_container">
-                    <svg class="section_faq_dropdown_icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 text-white/50 group-hover:text-white transition duration-300 ease-in-out"><path fill-rule="evenodd" d="M12 3.75a.75.75 0 01.75.75v6.75h6.75a.75.75 0 010 1.5h-6.75v6.75a.75.75 0 01-1.5 0v-6.75H4.5a.75.75 0 010-1.5h6.75V4.5a.75.75 0 01.75-.75z" clip-rule="evenodd"></path></svg>              
-                    <svg class="section_faq_dropdown_collapsible_icon" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" class="w-4 h-4 text-white/50 group-hover:text-white transition duration-300 ease-in-out"><path fill-rule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h15a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z" clip-rule="evenodd"></path></svg>
-                  </div>
-                </button>
-                <p class="section_p section_faq_dropdown_p">Is there a refund policy if I am not satisfied with the service?</p>
-              </div>
-
-              <div class="section_faq_dropdown_collapsible_container">
-                <p class="section_p section_faq_dropdown_collapsible_p">We do not charge any initial costs for the development of your chatbot. You can easily unsubscribe if you are dissatisfied.</p>
-              </div>
-            </div>
+    </section>
 
 
 
-          </div>
-        </div>
-      </section>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+      
+    
       <footer class="section_footer">
         <nav class="section_footer_container">
           <div class="section_footer_innercontainer">
@@ -676,10 +478,10 @@
 
               <div class="section_footer_text">
                 <button class="integrity_policy_button">
-                  <p class="section_p section_footer_p integrity_policy_button">Privacy policy</p>
+                  <p class="section_p section_footer_p integrity_policy_button">Integritetspolicy</p>
                 </button>
                 <button class="terms_and_services_button">
-                  <p class="section_p section_footer_p terms_and_services_button">Terms and conditions</p>
+                  <p class="section_p section_footer_p terms_and_services_button">Användarvillkor</p>
                 </button>
               </div>
             </div>
@@ -714,39 +516,39 @@
           </div>
 
           <div class="integrity_policy_text">
-            <h3>Privacy policy</h3>
+            <h3>Integritetspolicy</h3>
 
-            <p class="integrity_policy_p">This privacy policy explains how we collect, use and protect your personal information when you visit our website. We care about your privacy and strive to ensure that your personal data is processed in accordance with applicable laws and regulations, including the General Data Protection Regulation (GDPR). Please read this policy carefully to understand our practices and measures to protect your personal data.</p>
-            <p class="integrity_policy_p">Collection of personal information: We may collect personal information about you when you visit our website, register for an account, place an order or communicate with us. We only collect personal information that is relevant and necessary to provide Our services and improve your shopping experience. The personal information may include, but is not limited to:</p>
+            <p class="integrity_policy_p">Denna sekretesspolicy förklarar hur vi samlar in, använder och skyddar din personliga information när du besöker vår webbplats. Vi värnar om din integritet och strävar efter att säkerställa att dina personuppgifter behandlas i enlighet med gällande lagar och bestämmelser, inklusive allmänna dataskyddsförordningen (GDPR). Vänligen läs igenom denna policy noggrant för att förstå våra metoder och åtgärder för att skydda dina personuppgifter.</p>
+            <p class="integrity_policy_p">Insamling av personlig information: Vi kan komma att samla in personlig information om dig när du besöker vår webbplats, registrerar dig för ett konto, genomför en beställning eller kommunicerar med oss. Vi samlar endast in personlig information som är relevant och nödvändig för att tillhandahålla Våra produkter och förbättra din köpupplevelse. Den personliga informationen kan inkludera, men är inte begränsad till:</p>
             <ul>
-              <li class="integrity_policy_li">Name.</li>
-              <li class="integrity_policy_li">Contact information, including email address and telephone number.</li>
-              <li class="integrity_policy_li">Delivery address.</li>
-              <li class="integrity_policy_li">Payment information.</li>
-              <li class="integrity_policy_li">Demographic information.</li>
-              <li class="integrity_policy_li">Website activity and interaction.</li>
+              <li class="integrity_policy_li">Namn.</li>
+              <li class="integrity_policy_li">Kontaktinformation, inklusive e-postadress och telefonnummer.</li>
+              <li class="integrity_policy_li">Leveransadress.</li>
+              <li class="integrity_policy_li">Betalningsinformation.</li>
+              <li class="integrity_policy_li">Demografisk information.</li>
+              <li class="integrity_policy_li">Webbplatsaktivitet och interaktion.</li>
             </ul>
-            <p class="integrity_policy_p">Use of personal information: We will not sell, distribute or lease your personal information to third parties without your consent, except when required by law or to provide our services (for example, shipping companies or payment providers). We use your personal information to:</p>
+            <p class="integrity_policy_p">Användning av personlig information: Vi kommer inte sälja, distribuera eller hyra ut din personliga information till tredje part utan ditt samtycke, utom när det krävs enligt lag eller för att tillhandahålla Våra produkter (till exempel fraktbolag eller betalningsleverantörer). Vi använder din personliga information för att:</p>
             <ul>
-              <li class="integrity_policy_li">Manage and process your orders and payments.</li>
-              <li class="integrity_policy_li">Provide support and respond to your requests.</li>
-              <li class="integrity_policy_li">Customize and improve our website and services.</li>
-              <li class="integrity_policy_li">Send marketing communications about our products, special offers or other relevant updates, only if you have given your consent.</li>
-              <li class="integrity_policy_li">Comply with our legal obligations and defend ourselves against possible legal claims.</li>
+              <li class="integrity_policy_li">Hantera och behandla dina beställningar och betalningar.</li>
+              <li class="integrity_policy_li">Tillhandahålla support och svara på dina förfrågningar.</li>
+              <li class="integrity_policy_li">Anpassa och förbättra vår webbplats och tjänster.</li>
+              <li class="integrity_policy_li">Skicka marknadsföringskommunikation om våra produkter, specialerbjudanden eller andra relevanta uppdateringar, endast om du har gett ditt samtycke.</li>
+              <li class="integrity_policy_li">Uppfylla våra rättsliga skyldigheter och försvara oss mot eventuella rättsliga anspråk.</li>
             </ul>
-            <p class="integrity_policy_p">Storage and protection of personal information: We take appropriate technical and organizational measures to protect your personal information from accidental loss, access, use, modification or disclosure. We use security measures such as encryption, firewalls and password protection to protect your data and ensure a safe shopping experience. Your personal information will be stored for as long as necessary for the purposes set out in this Privacy Policy or as required by applicable law.</p>
-            <p class="integrity_policy_p">Cookies and tracking technologies: We use cookies and similar tracking technologies to improve your website experience and to analyze website traffic and usage. Cookies are small text files that are stored on your device when you visit our website. They help us recognize you and customize our website based on your preferences. You can choose to accept or reject cookies. Most browsers automatically accept cookies, but you can usually change your settings to refuse cookies if you prefer. Rejecting cookies may affect the functionality of our website and some features may not be available.</p>
-            <p class="integrity_policy_p">Your rights: Under current data protection legislation, you have certain rights regarding your personal information. These include:</p>
+            <p class="integrity_policy_p">Lagring och skydd av personlig information: Vi vidtar lämpliga tekniska och organisatoriska åtgärder för att skydda din personliga information från oavsiktlig förlust, åtkomst, användning, ändring eller avslöjande. Vi använder säkerhetsåtgärder som kryptering, brandväggar och lösenordsskydd för att skydda dina uppgifter och säkerställa en säker köpupplevelse. Din personliga information kommer att lagras så länge som det är nödvändigt för de ändamål som anges i denna sekretesspolicy eller enligt gällande lagstiftning.</p>
+            <p class="integrity_policy_p">Cookies och spårningsteknik: Vi använder cookies och liknande spårningsteknik för att förbättra din webbplatsupplevelse och analysera webbplatsens trafik och användning. Cookies är små textfiler som lagras på din enhet när du besöker vår webbplats. De hjälper oss att känna igen dig och anpassa vår webbplats utifrån dina preferenser. Du kan välja att acceptera eller avvisa cookies. De flesta webbläsare accepterar automatiskt cookies, men du kan vanligtvis ändra inställningarna för att neka cookies om du föredrar det. Att avvisa cookies kan påverka funktionaliteten på vår webbplats och vissa funktioner kanske inte är tillgängliga.</p>
+            <p class="integrity_policy_p">Dina rättigheter: Enligt gällande dataskyddslagstiftning har du vissa rättigheter angående din personliga information. Dessa inkluderar:</p>
             <ul>
-              <li class="integrity_policy_li">Right to request access to and correction of your personal information.</li>
-              <li class="integrity_policy_li">Right to request deletion of your personal information.</li>
-              <li class="integrity_policy_li">Right to object to the processing of your personal data.</li>
-              <li class="integrity_policy_li">Right to restrict the processing of your personal information.</li>
-              <li class="integrity_policy_li">The right to request the transfer of your personal information to another party.</li>
+              <li class="integrity_policy_li">Rätt att begära tillgång till och korrigering av din personliga information.</li>
+              <li class="integrity_policy_li">Rätt att begära radering av din personliga information.</li>
+              <li class="integrity_policy_li">Rätt att invända mot behandlingen av din personliga information.</li>
+              <li class="integrity_policy_li">Rätt att begränsa behandlingen av din personliga information.</li>
+              <li class="integrity_policy_li">Rätt att begära överföring av din personliga information till en annan part.</li>
             </ul>
-            <p class="integrity_policy_p">If you wish to exercise any of these rights or have any questions regarding our handling of your personal information, please contact us using the contact details provided below.</p>
-            <p class="integrity_policy_p">Changes to the privacy policy: We reserve the right to change this privacy policy when necessary to meet legal, technical or business requirements. Any changes will be published on our website and will become effective upon publication. We recommend that you regularly review this policy to stay informed of any changes.</p>
-            <p class="integrity_policy_p">Contact us: If you have any questions or need help with our privacy policy, please contact our customer service at info@nexera.se.</p>
+            <p class="integrity_policy_p">Om du vill utöva någon av dessa rättigheter eller har frågor angående vår hantering av din personliga information, vänligen kontakta oss via de kontaktuppgifter som anges nedan.</p>
+            <p class="integrity_policy_p">Ändringar i sekretesspolicyn: Vi förbehåller oss rätten att ändra denna sekretesspolicy när det behövs för att uppfylla lagliga, tekniska eller affärsmässiga krav. Eventuella ändringar kommer att publiceras på vår webbplats och trädde i kraft när de publiceras. Vi rekommenderar att du regelbundet granskar denna policy för att hålla dig informerad om eventuella ändringar.</p>
+            <p class="integrity_policy_p">Kontakta oss: Om du har några frågor eller behöver hjälp med vår sekretesspolicy, vänligen kontakta vår kundtjänst via info@nexera.se.</p>
             <p class="integrity_policy_p"><i>Nexera Automation</i></p>
 
           </div>
@@ -772,17 +574,17 @@
           </div>
 
           <div class="terms_and_services_text">
-            <h3>Terms and conditions</h3>
+            <h3>Användarvillkor</h3>
 
-            <p class="terms_and_services_p">These Terms of Use govern your use of our website and services. By continuing to use our website and services, you agree to comply with and be bound by these Terms of Use. Please read them carefully before using our website and services.</p>
-            <p class="terms_and_services_p">Acceptance of Terms of Use: By using our website and services, you agree to comply with these Terms of Use. If you do not agree to any part of these terms, please refrain from using our website and services.</p>
-            <p class="terms_and_services_p">Age and Eligibility: To use our website and services, you must be at least 18 years old or have reached the age of majority in your jurisdiction. By using our website and services, you represent that you are competent to enter into binding contracts under applicable law.</p>
-            <p class="terms_and_services_p">Intellectual property: All content on our website, including texts, images, graphics, logos, videos and audio clips, is protected by intellectual property rights and is the property of Entorio or our licensors. You may not reproduce, distribute, modify, sell or use our content without our prior written consent.</p>
-            <p class="terms_and_services_p">Products and prices: We aim to provide accurate information about our products, including prices, descriptions and availability. However, we reserve the right to change product prices, descriptions and availability at any time without prior notice. Any changes will not affect orders already placed.</p>
-            <p class="terms_and_services_p">Privacy and personal data: We care about your privacy and handle your personal data according to our privacy policy. By using our website and services, you consent to our collection, use and processing of your personal data in accordance with our Privacy Policy.</p>
-            <p class="terms_and_services_p">Changes to Terms of Use: We reserve the right to change these Terms of Use at any time by posting the revised terms on our website. It is your responsibility to regularly review the Terms of Use to be aware of any changes.</p>
-            <p class="terms_and_services_p">Applicable law and dispute resolution: These Terms of Use and any disputes arising in connection with them are governed by Swedish law. Any dispute shall primarily be resolved by negotiation. If negotiations fail, the dispute shall be referred to a Swedish court.</p>
-            <p class="terms_and_services_p">Contact us: If you have any questions or need help with our terms of use, please contact our customer service team at info@nexera.se.</p>
+            <p class="terms_and_services_p">Dessa användarvillkor styr din användning av vår webbplats och tjänster. Genom att fortsätta använda vår webbplats och tjänster godkänner du att följa och vara bunden av dessa användarvillkor. Var vänlig läs igenom dem noggrant innan du använder vår webbplats och tjänster.</p>
+            <p class="terms_and_services_p">Acceptans av användarvillkor: Genom att använda vår webbplats och tjänster godkänner du att följa dessa användarvillkor. Om du inte samtycker till någon del av dessa villkor ber vi dig att avstå från att använda vår webbplats och tjänster.</p>
+            <p class="terms_and_services_p">Ålder och behörighet: För att använda vår webbplats och tjänster måste du vara minst 18 år gammal eller ha uppnått åldern för myndighet i din jurisdiktion. Genom att använda vår webbplats och tjänster intygar du att du är behörig att ingå bindande avtal enligt gällande lagstiftning.</p>
+            <p class="terms_and_services_p">Intellektuell egendom: Allt innehåll på vår webbplats, inklusive texter, bilder, grafik, logotyper, videoklipp och ljudklipp, är skyddat av immateriella rättigheter och tillhör Entorio eller våra licensgivare. Du får inte reproducera, distribuera, modifiera, sälja eller använda vårt innehåll utan vårt skriftliga medgivande.</p>
+            <p class="terms_and_services_p">Produkter och priser: Vi strävar efter att ge korrekt information om våra produkter, inklusive priser, beskrivningar och tillgänglighet. Vi förbehåller oss dock rätten att ändra produkternas priser, beskrivningar och tillgänglighet när som helst utan föregående meddelande. Eventuella ändringar påverkar inte redan gjorda beställningar.</p>
+            <p class="terms_and_services_p">Sekretess och personuppgifter: Vi värnar om din integritet och hanterar dina personuppgifter enligt vår sekretesspolicy. Genom att använda vår webbplats och tjänster samtycker du till vår insamling, användning och hantering av dina personuppgifter enligt vår sekretesspolicy.</p>
+            <p class="terms_and_services_p">Ändringar av användarvillkor: Vi förbehåller oss rätten att när som helst ändra dessa användarvillkor genom att publicera de reviderade villkoren på vår webbplats. Det är ditt ansvar att regelbundet granska användarvillkoren för att vara medveten om eventuella ändringar.</p>
+            <p class="terms_and_services_p">Tillämplig lag och tvistlösning: Dessa användarvillkor och eventuella tvister som uppstår i samband med dem regleras av svensk lag. Eventuella tvister ska i första hand lösas genom förhandlingar. Om förhandlingarna misslyckas ska tvisten hänskjutas till svensk domstol.</p>
+            <p class="terms_and_services_p">Kontakta oss: Om du har några frågor eller behöver hjälp med våra användarvillkor, vänligen kontakta vår kundtjänst via info@nexera.se.</p>
             <p class="terms_and_services_p"><i>Nexera Automation</i></p>
 
           </div>
@@ -790,10 +592,7 @@
 
         </div>
       </div>
-
-
-
-
+      
 
   <script src="script.js"></script>
 
@@ -802,14 +601,18 @@
         var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
         v.onload = function() {
           window.voiceflow.chat.load({
-            verify: { projectID: '658718da3a269fd3bed159de' },
+            verify: { projectID: '658712c93a269fd3bed15966' },
             url: 'https://general-runtime.voiceflow.com',
-            versionID: 'production'
+            versionID: 'production',
+              assistant: { stylesheet: "https://nexera.se/resources/chatbot.css" }
           });
         }
-        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+        v.src = "https://nexera.se/resources/bundle_se.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
     })(document, 'script');
   </script>
+
+  <script type="text/javascript" src="./vanilla-tilt.js"></script>
+
 
 </body>
 </html>

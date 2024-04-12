@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+.vfrc-launcher {
+    background-color: rgb(227, 5, 20);
+}
+
+.vfrc-launcher:hover {
+    background-color: rgb(5, 6, 128);
+}
+
+.vfrc-widget--chat {
+    box-shadow: none;
+}
+
+.vfrc-chat  {
+    background-color: white;
+}
+
+.vfrc-header {
+    background-color: rgb(227, 5, 20);
+}
+
+.vfrc-header--title {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.vfrc-avatar {
+    border: none;
+    box-shadow: none;
+}
+
+.vfrc-assistant-info--title {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.vfrc-assistant-info--description {
+    font-family: 'Open Sans', sans-serif;
+    display: none;
+}
+
+.vfrc-chat--session-time {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.vfrc-system-response div p {
+    color: black;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.vfrc-system-response .vfrc-message {
+    background-color: rgb(244, 244, 244);
+}
+
+.vfrc-user-response, .vfrc-user-response .vfrc-user-response--row .vfrc-message {
+    color: white;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.vfrc-user-response .vfrc-user-response--row .vfrc-message {
+    background-color: rgb(227, 5, 20);
+}
+
+.vfrc-message {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.vfrc-chat-input textarea, .vfrc-chat-input--button, .vfrc-chat-input input {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white !important;
+    color: black;
+}
+
+.vfrc-chat-input textarea::placeholder {
+    color: black;
+}
+
+.vfrc-button {
+    background-color: rgb(227, 5, 20);
+    color: white;
+}
+
+vrfc-button:hover {
+    background-color: rgb(5, 6, 128);
+}
+
+.vfrc-footer .vfrc-button--primary:hover {
+    background-color: rgb(5, 6, 128);
+}
+
+.vfrc-prompt button:nth-of-type(2) {
+    background-color: transparent;
+    color: black;
+}
+
+.vfrc-chat .vfrc-prompt {
+    background-color: white;
+}
+
+
+/* Other */
+
+::-webkit-input-placeholder {
+    color:black;
+}
+
+::-moz-placeholder {
+    color:black;
+}
+
+::-ms-placeholder {
+    color:black;
+}
+
+::placeholder {
+    color:black;
+}
